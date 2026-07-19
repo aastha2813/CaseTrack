@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CaseTrack – Judicial Case Management System</title>
+  <meta name="description" content="CaseTrack is a modern judicial case management system for tracking criminal cases, suspects, evidence, and verdicts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Light Theme Base Gradient -->
+  <div class="light-bg"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="main-navbar">
+    <div class="nav-brand">
+      <div class="nav-logo"><i class="fas fa-balance-scale"></i></div>
+      <div>
+        <span class="nav-title">CaseTrack</span>
+        <span class="nav-subtitle">Judicial Case Management</span>
+      </div>
+    </div>
+    <div class="nav-links">
+      <button class="nav-btn" id="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+        <span class="nav-icon" id="theme-icon"><i class="fas fa-moon"></i></span>
+      </button>
+      <button class="nav-btn active" id="nav-dashboard" onclick="navigate('dashboard')">
+        <span class="nav-icon"><i class="fas fa-chart-pie"></i></span> Dashboard
+      </button>
+      <button class="nav-btn" id="nav-cases" onclick="navigate('cases')">
+        <span class="nav-icon"><i class="fas fa-folder-open"></i></span> Cases
+      </button>
+      <button class="nav-btn" id="nav-add" onclick="navigate('add')">
+        <span class="nav-icon"><i class="fas fa-plus"></i></span> Add Case
+      </button>
+    </div>
+    <div class="nav-clock" id="nav-clock"></div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content" id="main-content">
+    <!-- Views injected by JS -->
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()" id="modal-box">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

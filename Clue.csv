@@ -1,0 +1,248 @@
+Clue_Id,Case_Id,Description,Discovered_Date,Location
+CL001,C001,Weapon recovered near location,30-01-2023,Main entrance
+CL002,C001,Transaction records obtained,16-07-2025,Back alley
+CL003,C002,Weapon recovered near location,18-11-2024,Street corner
+CL004,C002,Broken glass fragments analyzed,12-11-2024,ATM booth
+CL005,C003,CCTV footage capturing suspect movement,07-03-2026,Parking area
+CL006,C003,Transaction records obtained,12-06-2024,Living room
+CL007,C004,Suspicious email trail identified,03-05-2023,Back alley
+CL008,C004,Weapon recovered near location,11-07-2025,Parking area
+CL009,C004,Witness sketch prepared,27-01-2024,ATM booth
+CL010,C005,Blood sample collected at scene,17-01-2025,ATM booth
+CL011,C005,Suspicious email trail identified,02-08-2024,Server room
+CL012,C005,Vehicle tire marks documented,04-09-2025,Office cabin
+CL013,C006,Weapon recovered near location,01-04-2025,Warehouse
+CL014,C006,Vehicle tire marks documented,24-08-2024,Warehouse
+CL015,C006,Vehicle tire marks documented,09-02-2026,Parking area
+CL016,C007,Suspicious email trail identified,29-07-2024,Parking area
+CL017,C007,CCTV footage capturing suspect movement,07-04-2023,Warehouse
+CL018,C008,Transaction records obtained,26-06-2024,Main entrance
+CL019,C008,Transaction records obtained,25-02-2024,ATM booth
+CL020,C008,Witness sketch prepared,06-06-2023,Server room
+CL021,C009,Witness sketch prepared,02-04-2025,Server room
+CL022,C009,Vehicle tire marks documented,01-05-2023,Living room
+CL023,C010,CCTV footage capturing suspect movement,30-04-2025,Street corner
+CL024,C010,Fingerprint lifted from door handle,28-09-2025,Warehouse
+CL025,C010,Vehicle tire marks documented,22-07-2023,ATM booth
+CL026,C011,Weapon recovered near location,28-03-2023,Office cabin
+CL027,C011,Broken glass fragments analyzed,08-04-2025,Street corner
+CL028,C011,Fingerprint lifted from door handle,17-03-2025,Living room
+CL029,C012,Suspicious email trail identified,21-12-2025,ATM booth
+CL030,C012,Mobile phone data extracted,13-01-2023,Living room
+CL031,C013,Weapon recovered near location,01-12-2024,Office cabin
+CL032,C013,Vehicle tire marks documented,26-05-2024,Shopping mall
+CL033,C014,Witness sketch prepared,20-09-2023,Main entrance
+CL034,C014,Blood sample collected at scene,09-08-2025,Office cabin
+CL035,C014,Transaction records obtained,09-08-2024,Street corner
+CL036,C015,Fingerprint lifted from door handle,01-08-2025,Parking area
+CL037,C015,Witness sketch prepared,12-11-2024,Shopping mall
+CL038,C015,Transaction records obtained,27-08-2023,Shopping mall
+CL039,C016,Suspicious email trail identified,20-11-2025,Shopping mall
+CL040,C016,Broken glass fragments analyzed,07-01-2023,ATM booth
+CL041,C016,Weapon recovered near location,24-02-2026,Warehouse
+CL042,C017,Witness sketch prepared,30-11-2024,Street corner
+CL043,C017,CCTV footage capturing suspect movement,06-02-2026,Street corner
+CL044,C017,Weapon recovered near location,30-07-2024,Server room
+CL045,C018,Suspicious email trail identified,05-05-2024,Living room
+CL046,C018,Mobile phone data extracted,03-04-2023,ATM booth
+CL047,C018,Fingerprint lifted from door handle,19-02-2023,Street corner
+CL048,C019,Broken glass fragments analyzed,11-05-2024,Main entrance
+CL049,C019,Weapon recovered near location,01-09-2023,Warehouse
+CL050,C020,Transaction records obtained,05-05-2024,Street corner
+CL051,C020,Transaction records obtained,19-04-2024,ATM booth
+CL052,C021,CCTV footage capturing suspect movement,21-04-2024,Back alley
+CL053,C021,Fingerprint lifted from door handle,02-09-2024,Parking area
+CL054,C021,Fingerprint lifted from door handle,02-01-2023,Main entrance
+CL055,C022,Weapon recovered near location,17-05-2025,Warehouse
+CL056,C022,Suspicious email trail identified,13-06-2023,Office cabin
+CL057,C022,Witness sketch prepared,28-12-2023,Office cabin
+CL058,C023,Witness sketch prepared,30-06-2025,Parking area
+CL059,C023,CCTV footage capturing suspect movement,25-11-2024,Parking area
+CL060,C024,Fingerprint lifted from door handle,04-10-2024,Server room
+CL061,C024,Vehicle tire marks documented,28-03-2026,ATM booth
+CL062,C025,Transaction records obtained,20-11-2025,Back alley
+CL063,C025,Weapon recovered near location,06-04-2025,Parking area
+CL064,C025,Vehicle tire marks documented,14-11-2025,Street corner
+CL065,C026,Suspicious email trail identified,28-11-2024,Parking area
+CL066,C026,Broken glass fragments analyzed,07-03-2025,Office cabin
+CL067,C027,Witness sketch prepared,18-01-2026,Shopping mall
+CL068,C027,Broken glass fragments analyzed,25-05-2025,Street corner
+CL069,C027,Transaction records obtained,31-12-2024,Parking area
+CL070,C028,Witness sketch prepared,21-05-2023,ATM booth
+CL071,C028,Mobile phone data extracted,30-05-2024,Server room
+CL072,C029,Vehicle tire marks documented,04-09-2024,Back alley
+CL073,C029,Blood sample collected at scene,19-10-2025,Server room
+CL074,C030,Fingerprint lifted from door handle,12-06-2023,Server room
+CL075,C030,Suspicious email trail identified,18-02-2023,Office cabin
+CL076,C030,Suspicious email trail identified,21-02-2023,Back alley
+CL077,C031,Suspicious email trail identified,22-12-2025,ATM booth
+CL078,C031,Blood sample collected at scene,06-02-2024,Warehouse
+CL079,C032,Mobile phone data extracted,18-08-2023,Parking area
+CL080,C032,Vehicle tire marks documented,19-12-2025,Main entrance
+CL081,C032,Blood sample collected at scene,27-10-2024,Office cabin
+CL082,C033,Suspicious email trail identified,11-05-2023,Back alley
+CL083,C033,Vehicle tire marks documented,24-10-2025,Office cabin
+CL084,C034,Transaction records obtained,01-01-2026,Main entrance
+CL085,C034,Mobile phone data extracted,09-03-2023,Warehouse
+CL086,C035,Vehicle tire marks documented,15-05-2025,Living room
+CL087,C035,Broken glass fragments analyzed,06-03-2023,Back alley
+CL088,C035,Transaction records obtained,13-05-2025,Server room
+CL089,C036,Witness sketch prepared,25-06-2023,Warehouse
+CL090,C036,Transaction records obtained,12-11-2025,Living room
+CL091,C037,Weapon recovered near location,31-01-2023,Office cabin
+CL092,C037,Fingerprint lifted from door handle,21-01-2024,Shopping mall
+CL093,C038,Fingerprint lifted from door handle,29-10-2024,Server room
+CL094,C038,Broken glass fragments analyzed,15-09-2023,Main entrance
+CL095,C039,Witness sketch prepared,29-03-2023,Office cabin
+CL096,C039,Mobile phone data extracted,02-12-2024,Server room
+CL097,C040,Mobile phone data extracted,23-10-2025,Back alley
+CL098,C040,Vehicle tire marks documented,21-03-2026,ATM booth
+CL099,C041,Blood sample collected at scene,28-02-2023,Parking area
+CL100,C041,Broken glass fragments analyzed,11-07-2024,Parking area
+CL101,C041,Suspicious email trail identified,30-11-2025,ATM booth
+CL102,C042,CCTV footage capturing suspect movement,26-11-2025,ATM booth
+CL103,C042,Blood sample collected at scene,14-05-2024,ATM booth
+CL104,C043,Witness sketch prepared,21-07-2023,ATM booth
+CL105,C043,Transaction records obtained,07-02-2026,Street corner
+CL106,C044,Witness sketch prepared,08-08-2023,Back alley
+CL107,C044,CCTV footage capturing suspect movement,21-03-2026,Back alley
+CL108,C044,Mobile phone data extracted,04-04-2023,Office cabin
+CL109,C045,Witness sketch prepared,17-01-2026,ATM booth
+CL110,C045,Fingerprint lifted from door handle,24-11-2024,Server room
+CL111,C046,Mobile phone data extracted,09-09-2025,Parking area
+CL112,C046,Vehicle tire marks documented,28-02-2023,ATM booth
+CL113,C047,CCTV footage capturing suspect movement,25-11-2023,Office cabin
+CL114,C047,Witness sketch prepared,08-03-2024,Server room
+CL115,C048,Mobile phone data extracted,12-07-2024,Office cabin
+CL116,C048,Blood sample collected at scene,26-04-2025,Parking area
+CL117,C049,Transaction records obtained,08-02-2023,Shopping mall
+CL118,C049,Blood sample collected at scene,05-03-2026,Server room
+CL119,C050,Vehicle tire marks documented,26-01-2025,Server room
+CL120,C050,Blood sample collected at scene,01-04-2025,Shopping mall
+CL121,C050,Fingerprint lifted from door handle,20-01-2024,ATM booth
+CL122,C051,Broken glass fragments analyzed,23-02-2026,Parking area
+CL123,C051,Broken glass fragments analyzed,29-11-2024,Back alley
+CL124,C052,Mobile phone data extracted,13-01-2025,Back alley
+CL125,C052,Suspicious email trail identified,08-07-2023,Living room
+CL126,C053,CCTV footage capturing suspect movement,04-02-2023,Shopping mall
+CL127,C053,Broken glass fragments analyzed,22-01-2025,Warehouse
+CL128,C054,Blood sample collected at scene,16-09-2023,Shopping mall
+CL129,C054,Weapon recovered near location,17-05-2024,Server room
+CL130,C054,Fingerprint lifted from door handle,08-06-2024,Warehouse
+CL131,C055,Broken glass fragments analyzed,28-07-2024,Office cabin
+CL132,C055,CCTV footage capturing suspect movement,02-11-2023,Living room
+CL133,C055,Mobile phone data extracted,25-09-2024,Main entrance
+CL134,C056,Broken glass fragments analyzed,27-06-2023,ATM booth
+CL135,C056,Transaction records obtained,29-05-2024,ATM booth
+CL136,C056,CCTV footage capturing suspect movement,23-07-2025,Shopping mall
+CL137,C057,Broken glass fragments analyzed,28-02-2024,Shopping mall
+CL138,C057,Weapon recovered near location,06-09-2025,Living room
+CL139,C057,Witness sketch prepared,26-12-2024,Shopping mall
+CL140,C058,Vehicle tire marks documented,03-03-2024,Parking area
+CL141,C058,Blood sample collected at scene,02-12-2023,Server room
+CL142,C058,CCTV footage capturing suspect movement,26-03-2026,ATM booth
+CL143,C059,Vehicle tire marks documented,18-01-2025,Parking area
+CL144,C059,Fingerprint lifted from door handle,14-07-2023,Main entrance
+CL145,C060,Broken glass fragments analyzed,17-01-2024,Main entrance
+CL146,C060,Mobile phone data extracted,29-01-2024,Living room
+CL147,C060,Blood sample collected at scene,27-08-2024,Street corner
+CL148,C061,Weapon recovered near location,07-12-2025,Server room
+CL149,C061,CCTV footage capturing suspect movement,19-01-2023,Shopping mall
+CL150,C062,Vehicle tire marks documented,29-11-2025,Living room
+CL151,C062,Fingerprint lifted from door handle,26-04-2023,Warehouse
+CL152,C063,Broken glass fragments analyzed,16-12-2025,Street corner
+CL153,C063,Weapon recovered near location,11-02-2023,ATM booth
+CL154,C064,Fingerprint lifted from door handle,14-05-2025,ATM booth
+CL155,C064,Mobile phone data extracted,16-04-2023,Warehouse
+CL156,C065,Witness sketch prepared,21-03-2025,Main entrance
+CL157,C065,CCTV footage capturing suspect movement,10-11-2024,Street corner
+CL158,C066,CCTV footage capturing suspect movement,03-11-2025,Warehouse
+CL159,C066,Suspicious email trail identified,03-07-2025,Living room
+CL160,C066,Broken glass fragments analyzed,03-04-2025,Server room
+CL161,C067,Witness sketch prepared,19-01-2023,Office cabin
+CL162,C067,Blood sample collected at scene,23-04-2024,Parking area
+CL163,C067,Mobile phone data extracted,21-03-2024,Main entrance
+CL164,C068,Witness sketch prepared,27-10-2025,Street corner
+CL165,C068,Transaction records obtained,09-10-2024,Warehouse
+CL166,C069,CCTV footage capturing suspect movement,22-03-2026,Back alley
+CL167,C069,Broken glass fragments analyzed,16-02-2026,Living room
+CL168,C069,Suspicious email trail identified,25-01-2024,Living room
+CL169,C070,Weapon recovered near location,10-12-2023,Office cabin
+CL170,C070,Mobile phone data extracted,20-03-2025,Parking area
+CL171,C071,Transaction records obtained,23-04-2024,Main entrance
+CL172,C071,CCTV footage capturing suspect movement,04-11-2025,Main entrance
+CL173,C072,Mobile phone data extracted,11-10-2024,Back alley
+CL174,C072,Mobile phone data extracted,02-02-2023,Street corner
+CL175,C073,Suspicious email trail identified,08-05-2023,Shopping mall
+CL176,C073,Mobile phone data extracted,18-01-2025,Parking area
+CL177,C073,Blood sample collected at scene,26-05-2025,Living room
+CL178,C074,Vehicle tire marks documented,26-07-2024,Shopping mall
+CL179,C074,Vehicle tire marks documented,09-07-2023,ATM booth
+CL180,C074,Broken glass fragments analyzed,19-05-2025,Back alley
+CL181,C075,Vehicle tire marks documented,07-01-2023,ATM booth
+CL182,C075,Suspicious email trail identified,18-10-2024,Parking area
+CL183,C076,CCTV footage capturing suspect movement,17-02-2026,Parking area
+CL184,C076,Blood sample collected at scene,15-06-2024,Main entrance
+CL185,C076,Weapon recovered near location,18-10-2023,Shopping mall
+CL186,C077,Broken glass fragments analyzed,10-03-2023,Office cabin
+CL187,C077,Witness sketch prepared,16-09-2023,Server room
+CL188,C077,Fingerprint lifted from door handle,26-03-2025,Street corner
+CL189,C078,Mobile phone data extracted,05-02-2023,Warehouse
+CL190,C078,Mobile phone data extracted,12-05-2023,Warehouse
+CL191,C079,Witness sketch prepared,26-10-2023,Back alley
+CL192,C079,Weapon recovered near location,14-09-2024,Shopping mall
+CL193,C080,Transaction records obtained,12-02-2023,Living room
+CL194,C080,Blood sample collected at scene,14-07-2024,Parking area
+CL195,C080,Witness sketch prepared,12-11-2024,Street corner
+CL196,C081,Witness sketch prepared,25-04-2025,Main entrance
+CL197,C081,Witness sketch prepared,22-03-2023,Shopping mall
+CL198,C081,Witness sketch prepared,17-06-2024,Main entrance
+CL199,C082,Broken glass fragments analyzed,08-09-2024,Server room
+CL200,C082,Fingerprint lifted from door handle,23-03-2023,Back alley
+CL201,C083,Vehicle tire marks documented,13-05-2023,Warehouse
+CL202,C083,Mobile phone data extracted,18-08-2024,Server room
+CL203,C083,Blood sample collected at scene,22-01-2025,Server room
+CL204,C084,Fingerprint lifted from door handle,21-03-2023,Main entrance
+CL205,C084,Suspicious email trail identified,14-08-2024,Parking area
+CL206,C084,Suspicious email trail identified,06-06-2024,Office cabin
+CL207,C085,Transaction records obtained,18-05-2024,Server room
+CL208,C085,Suspicious email trail identified,23-09-2023,Shopping mall
+CL209,C085,Fingerprint lifted from door handle,28-06-2023,Office cabin
+CL210,C086,Broken glass fragments analyzed,06-05-2024,Street corner
+CL211,C086,Fingerprint lifted from door handle,24-11-2023,Server room
+CL212,C086,CCTV footage capturing suspect movement,26-06-2025,Street corner
+CL213,C087,CCTV footage capturing suspect movement,06-06-2025,Shopping mall
+CL214,C087,Transaction records obtained,22-06-2023,Back alley
+CL215,C087,Mobile phone data extracted,16-10-2023,Office cabin
+CL216,C088,Broken glass fragments analyzed,25-07-2024,Street corner
+CL217,C088,CCTV footage capturing suspect movement,18-03-2026,Street corner
+CL218,C089,Mobile phone data extracted,29-09-2023,Street corner
+CL219,C089,Transaction records obtained,13-04-2023,ATM booth
+CL220,C090,Mobile phone data extracted,02-08-2023,Main entrance
+CL221,C090,CCTV footage capturing suspect movement,26-07-2025,Parking area
+CL222,C090,Fingerprint lifted from door handle,26-07-2024,Shopping mall
+CL223,C091,Broken glass fragments analyzed,02-03-2023,Warehouse
+CL224,C091,Weapon recovered near location,16-07-2024,Parking area
+CL225,C091,Suspicious email trail identified,12-09-2025,Street corner
+CL226,C092,Blood sample collected at scene,04-11-2023,Warehouse
+CL227,C092,Weapon recovered near location,01-07-2024,ATM booth
+CL228,C092,Mobile phone data extracted,29-03-2023,Office cabin
+CL229,C093,Blood sample collected at scene,22-11-2025,Street corner
+CL230,C093,Fingerprint lifted from door handle,06-03-2025,Living room
+CL231,C094,Suspicious email trail identified,19-10-2024,Street corner
+CL232,C094,CCTV footage capturing suspect movement,04-11-2024,Office cabin
+CL233,C095,Weapon recovered near location,17-04-2024,Shopping mall
+CL234,C095,Weapon recovered near location,05-02-2025,ATM booth
+CL235,C095,Mobile phone data extracted,16-03-2026,Street corner
+CL236,C096,Broken glass fragments analyzed,26-07-2025,Back alley
+CL237,C096,Blood sample collected at scene,08-09-2025,Warehouse
+CL238,C097,Transaction records obtained,08-01-2025,Back alley
+CL239,C097,Blood sample collected at scene,07-08-2025,Street corner
+CL240,C097,CCTV footage capturing suspect movement,20-04-2024,Main entrance
+CL241,C098,Transaction records obtained,22-09-2023,Main entrance
+CL242,C098,Transaction records obtained,30-04-2025,Parking area
+CL243,C098,Broken glass fragments analyzed,29-10-2023,Living room
+CL244,C099,Mobile phone data extracted,16-01-2026,Street corner
+CL245,C099,Witness sketch prepared,20-07-2025,Warehouse
+CL246,C100,Transaction records obtained,28-04-2023,Main entrance
+CL247,C100,Mobile phone data extracted,12-10-2023,Living room

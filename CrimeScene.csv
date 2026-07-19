@@ -1,0 +1,101 @@
+Scene_id,Case_id,Address,City,Date_Reported,Description
+S001,C001,"118, College Road",Visakhapatnam,30-01-2023,Crime scene secured with perimeter established and evidence markers placed.
+S002,C002,"83, Market Road",Kolkata,14-02-2026,Crime scene secured with perimeter established and evidence markers placed.
+S003,C003,"5, Market Road",Hyderabad,26-06-2025,Evidence collected including physical traces and digital records.
+S004,C004,"53, Station Road",Surat,18-01-2025,Crime scene secured with perimeter established and evidence markers placed.
+S005,C005,"258, Market Road",Coimbatore,17-10-2024,Area sealed off and preliminary analysis completed by officers.
+S006,C006,"18, Link Road",Chennai,08-01-2026,Scene examined for CCTV footage and witness statements recorded.
+S007,C007,"204, Airport Road",Ahmedabad,04-03-2023,Scene examined for CCTV footage and witness statements recorded.
+S008,C008,"275, Ring Road",Pune,10-02-2026,Area sealed off and preliminary analysis completed by officers.
+S009,C009,"153, Market Road",Lucknow,23-06-2024,Witnesses interviewed and scene documented thoroughly.
+S010,C010,"132, Ring Road",Visakhapatnam,06-05-2023,Area sealed off and preliminary analysis completed by officers.
+S011,C011,"70, College Road",Bengaluru,20-02-2026,Forensic experts gathered biological and material samples.
+S012,C012,"175, Ring Road",Vadodara,08-08-2023,Forensic experts gathered biological and material samples.
+S013,C013,"36, College Road",Pune,21-03-2023,Area sealed off and preliminary analysis completed by officers.
+S014,C014,"124, College Road",Kolkata,18-03-2026,Investigation team analyzed entry and exit points at location.
+S015,C015,"212, Ring Road",Nagpur,07-03-2025,Witnesses interviewed and scene documented thoroughly.
+S016,C016,"40, Ring Road",Ahmedabad,04-09-2025,Crime location documented with photographs and sketches.
+S017,C017,"265, Ring Road",Delhi,17-04-2023,Crime location documented with photographs and sketches.
+S018,C018,"61, MG Road",Lucknow,21-05-2024,Area sealed off and preliminary analysis completed by officers.
+S019,C019,"196, MG Road",Kolkata,03-09-2024,Witnesses interviewed and scene documented thoroughly.
+S020,C020,"80, Market Road",Kolkata,04-03-2023,Area sealed off and preliminary analysis completed by officers.
+S021,C021,"88, Park Street",Hyderabad,20-11-2023,Crime location documented with photographs and sketches.
+S022,C022,"291, College Road",Nagpur,09-08-2025,Forensic experts gathered biological and material samples.
+S023,C023,"247, Link Road",Patna,28-01-2024,"Initial forensic survey conducted, fingerprints and samples collected."
+S024,C024,"285, College Road",Hyderabad,18-10-2025,Investigation team analyzed entry and exit points at location.
+S025,C025,"105, MG Road",Chandigarh,10-12-2025,Forensic experts gathered biological and material samples.
+S026,C026,"218, Market Road",Bengaluru,05-03-2025,Crime scene secured with perimeter established and evidence markers placed.
+S027,C027,"69, College Road",Hyderabad,28-07-2023,Evidence collected including physical traces and digital records.
+S028,C028,"104, Link Road",Indore,30-07-2023,Witnesses interviewed and scene documented thoroughly.
+S029,C029,"142, Park Street",Bengaluru,25-10-2025,Witnesses interviewed and scene documented thoroughly.
+S030,C030,"51, Market Road",Bengaluru,16-01-2025,Crime scene secured with perimeter established and evidence markers placed.
+S031,C031,"202, College Road",Bhopal,25-01-2024,Detailed investigation carried out with forensic team assistance.
+S032,C032,"183, College Road",Lucknow,15-11-2025,Crime location documented with photographs and sketches.
+S033,C033,"135, Park Street",Pune,24-04-2023,"Initial forensic survey conducted, fingerprints and samples collected."
+S034,C034,"283, Station Road",Mumbai,18-01-2025,Scene examined for CCTV footage and witness statements recorded.
+S035,C035,"110, College Road",Patna,18-01-2025,Area sealed off and preliminary analysis completed by officers.
+S036,C036,"109, College Road",Delhi,12-07-2024,Witnesses interviewed and scene documented thoroughly.
+S037,C037,"167, Airport Road",Kolkata,03-09-2023,Evidence collected including physical traces and digital records.
+S038,C038,"199, Ring Road",Hyderabad,19-12-2024,Detailed investigation carried out with forensic team assistance.
+S039,C039,"242, Link Road",Indore,05-05-2023,Area sealed off and preliminary analysis completed by officers.
+S040,C040,"35, College Road",Chennai,14-03-2024,Investigation team analyzed entry and exit points at location.
+S041,C041,"249, Market Road",Delhi,11-07-2024,Crime location documented with photographs and sketches.
+S042,C042,"156, Link Road",Jaipur,24-11-2024,Crime location documented with photographs and sketches.
+S043,C043,"27, Station Road",Vadodara,03-07-2023,Forensic experts gathered biological and material samples.
+S044,C044,"178, Airport Road",Pune,23-02-2024,Witnesses interviewed and scene documented thoroughly.
+S045,C045,"45, Station Road",Kolkata,05-10-2025,Crime scene secured with perimeter established and evidence markers placed.
+S046,C046,"188, Link Road",Bhopal,04-01-2024,Witnesses interviewed and scene documented thoroughly.
+S047,C047,"21, Ring Road",Bengaluru,02-01-2026,Detailed investigation carried out with forensic team assistance.
+S048,C048,"148, Link Road",Patna,13-11-2023,Scene examined for CCTV footage and witness statements recorded.
+S049,C049,"264, Ring Road",Chandigarh,21-03-2024,Crime scene secured with perimeter established and evidence markers placed.
+S050,C050,"128, Ring Road",Coimbatore,04-08-2023,Evidence collected including physical traces and digital records.
+S051,C051,"219, MG Road",Bhopal,30-05-2023,Forensic experts gathered biological and material samples.
+S052,C052,"178, Station Road",Indore,18-07-2023,Area sealed off and preliminary analysis completed by officers.
+S053,C053,"148, Ring Road",Ahmedabad,26-11-2024,"Initial forensic survey conducted, fingerprints and samples collected."
+S054,C054,"210, College Road",Pune,25-04-2024,Detailed investigation carried out with forensic team assistance.
+S055,C055,"300, College Road",Bengaluru,25-01-2025,Evidence collected including physical traces and digital records.
+S056,C056,"219, Market Road",Kolkata,27-05-2023,Area sealed off and preliminary analysis completed by officers.
+S057,C057,"145, Link Road",Jaipur,28-10-2023,Crime location documented with photographs and sketches.
+S058,C058,"1, Airport Road",Delhi,14-02-2025,Witnesses interviewed and scene documented thoroughly.
+S059,C059,"65, Park Street",Nagpur,06-06-2024,Crime location documented with photographs and sketches.
+S060,C060,"194, College Road",Kolkata,30-03-2026,Detailed investigation carried out with forensic team assistance.
+S061,C061,"233, College Road",Coimbatore,08-12-2025,Investigation team analyzed entry and exit points at location.
+S062,C062,"285, Market Road",Chennai,15-09-2025,Detailed investigation carried out with forensic team assistance.
+S063,C063,"219, Station Road",Vadodara,16-05-2024,Evidence collected including physical traces and digital records.
+S064,C064,"5, College Road",Hyderabad,18-02-2025,Witnesses interviewed and scene documented thoroughly.
+S065,C065,"85, MG Road",Mumbai,12-02-2025,Witnesses interviewed and scene documented thoroughly.
+S066,C066,"251, Park Street",Lucknow,03-07-2023,Crime scene secured with perimeter established and evidence markers placed.
+S067,C067,"40, Market Road",Bengaluru,25-12-2024,Forensic experts gathered biological and material samples.
+S068,C068,"274, Market Road",Vadodara,28-10-2025,Evidence collected including physical traces and digital records.
+S069,C069,"226, Link Road",Kochi,18-12-2024,Crime location documented with photographs and sketches.
+S070,C070,"190, Airport Road",Chennai,07-04-2023,Witnesses interviewed and scene documented thoroughly.
+S071,C071,"293, Link Road",Surat,15-01-2025,Scene examined for CCTV footage and witness statements recorded.
+S072,C072,"3, College Road",Jaipur,15-01-2025,Scene examined for CCTV footage and witness statements recorded.
+S073,C073,"159, College Road",Kolkata,21-02-2024,Crime location documented with photographs and sketches.
+S074,C074,"3, Airport Road",Surat,12-12-2023,"Initial forensic survey conducted, fingerprints and samples collected."
+S075,C075,"221, Station Road",Ahmedabad,08-05-2024,Evidence collected including physical traces and digital records.
+S076,C076,"36, Station Road",Pune,09-08-2025,"Initial forensic survey conducted, fingerprints and samples collected."
+S077,C077,"97, MG Road",Ahmedabad,10-12-2025,Scene examined for CCTV footage and witness statements recorded.
+S078,C078,"236, Park Street",Coimbatore,17-10-2023,Scene examined for CCTV footage and witness statements recorded.
+S079,C079,"284, Station Road",Bhopal,03-11-2025,Witnesses interviewed and scene documented thoroughly.
+S080,C080,"131, Airport Road",Indore,03-06-2023,Scene examined for CCTV footage and witness statements recorded.
+S081,C081,"216, Ring Road",Mumbai,21-01-2025,Investigation team analyzed entry and exit points at location.
+S082,C082,"292, Airport Road",Chandigarh,26-11-2023,Forensic experts gathered biological and material samples.
+S083,C083,"28, MG Road",Vadodara,21-06-2025,Area sealed off and preliminary analysis completed by officers.
+S084,C084,"278, Link Road",Coimbatore,16-08-2025,Forensic experts gathered biological and material samples.
+S085,C085,"257, Station Road",Bengaluru,30-06-2025,Witnesses interviewed and scene documented thoroughly.
+S086,C086,"226, College Road",Kolkata,31-01-2026,Detailed investigation carried out with forensic team assistance.
+S087,C087,"65, Park Street",Lucknow,10-01-2025,Evidence collected including physical traces and digital records.
+S088,C088,"267, Link Road",Delhi,19-02-2026,Investigation team analyzed entry and exit points at location.
+S089,C089,"179, Airport Road",Indore,18-12-2024,Forensic experts gathered biological and material samples.
+S090,C090,"46, Park Street",Vadodara,03-07-2025,Area sealed off and preliminary analysis completed by officers.
+S091,C091,"153, Station Road",Chandigarh,16-10-2024,Forensic experts gathered biological and material samples.
+S092,C092,"85, Park Street",Lucknow,10-09-2025,Evidence collected including physical traces and digital records.
+S093,C093,"18, Airport Road",Nagpur,01-02-2026,Investigation team analyzed entry and exit points at location.
+S094,C094,"2, Airport Road",Indore,27-04-2025,Witnesses interviewed and scene documented thoroughly.
+S095,C095,"260, Market Road",Vadodara,09-09-2025,Investigation team analyzed entry and exit points at location.
+S096,C096,"94, Link Road",Surat,25-01-2025,Crime location documented with photographs and sketches.
+S097,C097,"78, Airport Road",Jaipur,01-07-2023,Scene examined for CCTV footage and witness statements recorded.
+S098,C098,"13, College Road",Chennai,11-03-2025,Investigation team analyzed entry and exit points at location.
+S099,C099,"198, Ring Road",Kolkata,20-07-2023,Forensic experts gathered biological and material samples.
+S100,C100,"13, College Road",Jaipur,25-06-2024,Crime location documented with photographs and sketches.

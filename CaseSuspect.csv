@@ -1,0 +1,200 @@
+Suspect_Id,Case_Id,Name,DOB,Gender,Criminal_History,Suspicion_Level,Role_In_Case
+SUS001,C001,Anjali Das,03-10-1977,Male,Repeat offender,Low,Main Suspect
+SUS002,C002,Rekha Gupta,15-07-1973,Female,First-time suspect,Low,Main Suspect
+SUS003,C003,Pooja Nair,25-08-1970,Female,No prior record,High,Witness Turned Suspect
+SUS004,C003,Suresh Gupta,13-09-1973,Female,Fraud investigation history,Low,Main Suspect
+SUS005,C003,Sameer Singh,04-04-1985,Female,No prior record,Low,Witness Turned Suspect
+SUS006,C004,Kavita Mehta,29-08-1985,Male,Repeat offender,Low,Accomplice
+SUS007,C005,Simran Sharma,23-06-2003,Male,Repeat offender,High,Accomplice
+SUS008,C005,Vikram Das,26-12-1970,Male,No prior record,Low,Accomplice
+SUS009,C005,Pooja Patel,20-05-1984,Male,No prior record,High,Witness Turned Suspect
+SUS010,C006,Nikhil Khan,12-04-1981,Male,Previous theft charges,Medium,Witness Turned Suspect
+SUS011,C006,Imran Reddy,15-09-1978,Male,No prior record,Low,Main Suspect
+SUS012,C006,Simran Das,29-01-1976,Male,Previous theft charges,Medium,Main Suspect
+SUS013,C007,Anjali Sharma,29-10-1979,Female,Previous theft charges,Medium,Accomplice
+SUS014,C007,Priya Joshi,23-07-1991,Female,Repeat offender,Medium,Accomplice
+SUS015,C007,Nikhil Reddy,03-10-1989,Male,Repeat offender,Low,Accomplice
+SUS016,C008,Anjali Joshi,29-03-1977,Male,Previous theft charges,Medium,Witness Turned Suspect
+SUS017,C009,Sameer Singh,17-08-1992,Female,No prior record,Medium,Main Suspect
+SUS018,C010,Rahul Joshi,11-09-1981,Male,Previous theft charges,High,Witness Turned Suspect
+SUS019,C011,Arjun Nair,17-03-1970,Female,Repeat offender,High,Witness Turned Suspect
+SUS020,C011,Kavita Das,18-01-2000,Male,No prior record,High,Witness Turned Suspect
+SUS021,C011,Priya Joshi,25-11-1976,Male,Previous theft charges,Low,Main Suspect
+SUS022,C012,Anjali Patel,07-02-1977,Male,Fraud investigation history,Medium,Main Suspect
+SUS023,C012,Karan Nair,25-07-1971,Male,Repeat offender,Medium,Main Suspect
+SUS024,C012,Nikhil Mehta,28-09-2003,Female,Fraud investigation history,Medium,Witness Turned Suspect
+SUS025,C013,Imran Reddy,24-02-1974,Male,No prior record,Medium,Main Suspect
+SUS026,C013,Nikhil Khan,29-11-1977,Female,First-time suspect,High,Accomplice
+SUS027,C013,Riya Mehta,04-02-1973,Male,Previous theft charges,Medium,Accomplice
+SUS028,C014,Rekha Gupta,17-12-1982,Female,Fraud investigation history,Low,Main Suspect
+SUS029,C014,Sneha Sharma,05-10-1990,Male,Previous theft charges,High,Witness Turned Suspect
+SUS030,C015,Suresh Sharma,17-11-1971,Male,Repeat offender,Low,Accomplice
+SUS031,C015,Karan Patel,14-03-1989,Male,Previous theft charges,Low,Witness Turned Suspect
+SUS032,C015,Anjali Joshi,18-09-1973,Female,Repeat offender,Medium,Main Suspect
+SUS033,C016,Kavita Singh,25-05-1992,Female,Fraud investigation history,Medium,Witness Turned Suspect
+SUS034,C017,Ayesha Nair,05-04-1986,Female,First-time suspect,Low,Main Suspect
+SUS035,C017,Amit Gupta,05-01-1991,Female,No prior record,High,Main Suspect
+SUS036,C018,Ayesha Joshi,04-04-2002,Female,No prior record,High,Accomplice
+SUS037,C019,Rahul Nair,02-09-1979,Male,Repeat offender,Medium,Accomplice
+SUS038,C019,Nikhil Das,18-09-1976,Female,Repeat offender,High,Accomplice
+SUS039,C020,Rahul Singh,06-12-1991,Male,Fraud investigation history,High,Witness Turned Suspect
+SUS040,C021,Priya Singh,03-05-1999,Female,No prior record,Medium,Accomplice
+SUS041,C021,Pooja Sharma,17-02-2000,Male,Previous theft charges,Medium,Witness Turned Suspect
+SUS042,C022,Nikhil Das,14-11-1983,Male,No prior record,Low,Main Suspect
+SUS043,C022,Neha Gupta,19-12-1988,Female,Repeat offender,High,Accomplice
+SUS044,C022,Priya Khan,07-01-1997,Female,Previous theft charges,Medium,Witness Turned Suspect
+SUS045,C023,Imran Das,16-05-1973,Female,Fraud investigation history,Medium,Main Suspect
+SUS046,C023,Nikhil Das,11-04-1997,Female,No prior record,Medium,Witness Turned Suspect
+SUS047,C024,Anjali Das,02-05-1971,Female,First-time suspect,Low,Main Suspect
+SUS048,C024,Simran Joshi,07-01-1994,Female,Previous theft charges,Medium,Accomplice
+SUS049,C024,Pooja Sharma,24-04-1978,Female,Repeat offender,Low,Main Suspect
+SUS050,C025,Sameer Mehta,18-11-2003,Male,Repeat offender,Low,Main Suspect
+SUS051,C025,Karan Joshi,20-10-2003,Female,No prior record,Medium,Main Suspect
+SUS052,C026,Riya Mehta,16-12-1978,Male,Previous theft charges,Medium,Main Suspect
+SUS053,C027,Imran Singh,28-11-1996,Male,Repeat offender,Low,Main Suspect
+SUS054,C027,Rekha Patel,30-09-1978,Male,Previous theft charges,High,Accomplice
+SUS055,C028,Simran Sharma,01-08-1984,Female,Previous theft charges,Medium,Main Suspect
+SUS056,C029,Riya Nair,26-06-1970,Male,Repeat offender,High,Witness Turned Suspect
+SUS057,C029,Sameer Reddy,21-07-1995,Female,Repeat offender,High,Accomplice
+SUS058,C029,Amit Das,09-07-1994,Female,Fraud investigation history,High,Witness Turned Suspect
+SUS059,C030,Pooja Joshi,17-01-1972,Female,Fraud investigation history,High,Witness Turned Suspect
+SUS060,C031,Kavita Khan,24-09-1981,Male,Previous theft charges,Medium,Witness Turned Suspect
+SUS061,C031,Amit Mehta,30-12-1989,Female,No prior record,High,Witness Turned Suspect
+SUS062,C032,Karan Reddy,25-07-1979,Female,First-time suspect,High,Witness Turned Suspect
+SUS063,C032,Imran Khan,10-07-1986,Female,No prior record,High,Accomplice
+SUS064,C032,Vikram Sharma,08-04-1985,Female,Previous theft charges,High,Main Suspect
+SUS065,C033,Sameer Khan,03-06-2002,Female,Fraud investigation history,Low,Main Suspect
+SUS066,C033,Pooja Khan,20-05-1979,Female,Repeat offender,Low,Witness Turned Suspect
+SUS067,C034,Pooja Das,05-11-1989,Male,No prior record,Medium,Main Suspect
+SUS068,C034,Sneha Reddy,30-05-1988,Male,Repeat offender,High,Main Suspect
+SUS069,C034,Sameer Khan,13-06-1973,Female,First-time suspect,High,Witness Turned Suspect
+SUS070,C035,Neha Das,09-04-1973,Male,Repeat offender,High,Witness Turned Suspect
+SUS071,C036,Arjun Gupta,21-12-1994,Female,No prior record,Medium,Witness Turned Suspect
+SUS072,C037,Riya Nair,01-05-1999,Male,Repeat offender,Low,Witness Turned Suspect
+SUS073,C038,Imran Das,22-04-1973,Female,Fraud investigation history,Low,Main Suspect
+SUS074,C038,Imran Joshi,13-05-2000,Male,No prior record,Low,Witness Turned Suspect
+SUS075,C039,Nikhil Khan,06-08-1980,Male,First-time suspect,High,Main Suspect
+SUS076,C040,Karan Gupta,27-04-2002,Male,First-time suspect,Low,Accomplice
+SUS077,C040,Ayesha Joshi,08-08-1972,Male,Repeat offender,Low,Witness Turned Suspect
+SUS078,C041,Priya Singh,18-02-1989,Female,Repeat offender,Low,Main Suspect
+SUS079,C041,Anjali Nair,13-10-1983,Female,First-time suspect,Medium,Main Suspect
+SUS080,C042,Neha Das,20-06-1974,Female,Previous theft charges,Low,Accomplice
+SUS081,C043,Anjali Nair,08-03-1999,Male,Repeat offender,Medium,Witness Turned Suspect
+SUS082,C043,Priya Khan,20-12-1982,Male,Repeat offender,High,Witness Turned Suspect
+SUS083,C044,Riya Joshi,16-04-2001,Male,First-time suspect,Medium,Main Suspect
+SUS084,C044,Simran Nair,07-03-1977,Male,Repeat offender,Low,Accomplice
+SUS085,C044,Priya Khan,26-06-1976,Female,No prior record,High,Accomplice
+SUS086,C045,Nikhil Khan,08-04-2002,Male,Fraud investigation history,High,Witness Turned Suspect
+SUS087,C045,Kavita Patel,11-04-1984,Female,Previous theft charges,Low,Accomplice
+SUS088,C045,Priya Khan,20-09-1993,Male,Fraud investigation history,High,Main Suspect
+SUS089,C046,Suresh Patel,20-12-1976,Male,No prior record,Low,Witness Turned Suspect
+SUS090,C046,Priya Mehta,12-10-1977,Male,First-time suspect,High,Witness Turned Suspect
+SUS091,C046,Pooja Nair,04-10-1980,Female,No prior record,Low,Main Suspect
+SUS092,C047,Neha Mehta,10-02-2003,Female,First-time suspect,Medium,Witness Turned Suspect
+SUS093,C047,Vikram Gupta,17-07-1971,Male,Previous theft charges,Medium,Main Suspect
+SUS094,C048,Pooja Patel,18-01-2003,Male,Fraud investigation history,Low,Main Suspect
+SUS095,C048,Imran Patel,05-02-1983,Male,No prior record,Medium,Main Suspect
+SUS096,C048,Karan Patel,30-12-1974,Male,No prior record,Medium,Witness Turned Suspect
+SUS097,C049,Suresh Khan,21-03-1970,Male,Previous theft charges,Low,Main Suspect
+SUS098,C049,Sameer Patel,10-10-1983,Male,First-time suspect,Low,Accomplice
+SUS099,C049,Rohit Khan,12-06-2003,Male,Repeat offender,High,Witness Turned Suspect
+SUS100,C050,Rekha Nair,10-12-1971,Female,Fraud investigation history,High,Main Suspect
+SUS101,C050,Priya Das,03-11-1998,Male,Fraud investigation history,High,Main Suspect
+SUS102,C051,Pooja Joshi,09-08-1983,Male,Fraud investigation history,Low,Witness Turned Suspect
+SUS103,C051,Amit Mehta,17-02-1976,Female,Fraud investigation history,Medium,Main Suspect
+SUS104,C051,Kavita Das,29-12-1974,Male,No prior record,Medium,Main Suspect
+SUS105,C052,Rekha Patel,09-07-1982,Male,No prior record,Medium,Accomplice
+SUS106,C052,Arjun Khan,19-02-1994,Female,Fraud investigation history,High,Accomplice
+SUS107,C052,Simran Khan,05-07-1997,Female,First-time suspect,High,Accomplice
+SUS108,C053,Vikram Patel,14-09-1992,Female,Previous theft charges,High,Accomplice
+SUS109,C053,Imran Singh,10-04-1981,Female,First-time suspect,High,Main Suspect
+SUS110,C053,Anjali Mehta,10-09-1976,Male,No prior record,High,Main Suspect
+SUS111,C054,Sneha Khan,24-12-1974,Male,Fraud investigation history,High,Witness Turned Suspect
+SUS112,C055,Rahul Das,25-09-2000,Male,Previous theft charges,Low,Accomplice
+SUS113,C055,Suresh Khan,19-02-2003,Male,Fraud investigation history,Medium,Accomplice
+SUS114,C056,Suresh Das,29-06-1998,Male,Fraud investigation history,Low,Witness Turned Suspect
+SUS115,C057,Sameer Patel,17-02-1973,Female,Repeat offender,Medium,Main Suspect
+SUS116,C057,Sameer Sharma,27-01-1981,Male,Previous theft charges,Low,Witness Turned Suspect
+SUS117,C057,Priya Reddy,14-06-2003,Male,Previous theft charges,High,Accomplice
+SUS118,C058,Arjun Mehta,28-02-1970,Male,Repeat offender,Low,Witness Turned Suspect
+SUS119,C058,Riya Gupta,22-12-1972,Male,First-time suspect,High,Main Suspect
+SUS120,C058,Kavita Sharma,12-03-1976,Male,No prior record,High,Main Suspect
+SUS121,C059,Imran Nair,25-03-1988,Female,Fraud investigation history,Low,Witness Turned Suspect
+SUS122,C059,Vikram Khan,14-02-1990,Female,Previous theft charges,Medium,Main Suspect
+SUS123,C059,Rahul Khan,17-04-2003,Female,Repeat offender,Low,Witness Turned Suspect
+SUS124,C060,Anjali Khan,09-08-1978,Male,First-time suspect,Medium,Accomplice
+SUS125,C060,Rohit Das,31-07-1999,Male,No prior record,Low,Accomplice
+SUS126,C060,Arjun Das,18-07-2002,Female,First-time suspect,Medium,Accomplice
+SUS127,C061,Simran Reddy,05-07-1995,Female,First-time suspect,Low,Accomplice
+SUS128,C061,Rekha Nair,19-03-1971,Male,First-time suspect,High,Main Suspect
+SUS129,C062,Rohit Reddy,16-05-1986,Male,Previous theft charges,Medium,Accomplice
+SUS130,C062,Imran Mehta,04-07-1975,Male,Repeat offender,Low,Main Suspect
+SUS131,C063,Rahul Reddy,29-07-2002,Female,No prior record,High,Witness Turned Suspect
+SUS132,C063,Rahul Sharma,16-01-1987,Male,No prior record,Medium,Witness Turned Suspect
+SUS133,C064,Anjali Sharma,21-11-1974,Male,Repeat offender,High,Main Suspect
+SUS134,C064,Rekha Reddy,05-07-1974,Female,First-time suspect,Low,Main Suspect
+SUS135,C065,Karan Reddy,03-07-1997,Male,No prior record,High,Accomplice
+SUS136,C065,Vikram Gupta,20-04-1978,Female,Repeat offender,Low,Accomplice
+SUS137,C065,Pooja Joshi,14-04-2003,Male,No prior record,High,Witness Turned Suspect
+SUS138,C066,Pooja Reddy,31-01-1989,Male,Previous theft charges,Medium,Witness Turned Suspect
+SUS139,C067,Rekha Das,01-09-2003,Female,First-time suspect,Low,Witness Turned Suspect
+SUS140,C067,Karan Mehta,01-10-1973,Male,No prior record,Low,Witness Turned Suspect
+SUS141,C068,Imran Gupta,07-04-1973,Female,Fraud investigation history,Medium,Accomplice
+SUS142,C068,Suresh Joshi,22-09-1970,Female,Repeat offender,Medium,Main Suspect
+SUS143,C069,Anjali Das,08-12-1973,Female,No prior record,Medium,Main Suspect
+SUS144,C069,Priya Reddy,08-08-1971,Female,First-time suspect,Low,Accomplice
+SUS145,C070,Ayesha Das,10-06-1973,Female,Repeat offender,Low,Witness Turned Suspect
+SUS146,C071,Sameer Khan,23-03-1975,Female,Repeat offender,High,Main Suspect
+SUS147,C071,Rekha Reddy,23-04-1996,Female,Repeat offender,Medium,Accomplice
+SUS148,C072,Rekha Das,11-10-1983,Male,Repeat offender,High,Witness Turned Suspect
+SUS149,C073,Pooja Reddy,18-02-1984,Male,No prior record,Medium,Witness Turned Suspect
+SUS150,C073,Suresh Singh,30-09-2003,Female,Previous theft charges,High,Main Suspect
+SUS151,C074,Nikhil Nair,13-05-1977,Male,First-time suspect,High,Witness Turned Suspect
+SUS152,C074,Priya Mehta,15-07-1970,Female,Fraud investigation history,Medium,Main Suspect
+SUS153,C075,Vikram Mehta,10-07-1985,Female,Fraud investigation history,Medium,Accomplice
+SUS154,C075,Neha Khan,22-10-1997,Female,Previous theft charges,High,Accomplice
+SUS155,C076,Pooja Gupta,24-01-1995,Female,Fraud investigation history,High,Accomplice
+SUS156,C076,Simran Patel,02-08-1978,Female,Repeat offender,High,Accomplice
+SUS157,C076,Nikhil Reddy,26-02-2001,Male,Repeat offender,Medium,Main Suspect
+SUS158,C077,Suresh Sharma,05-08-2002,Female,First-time suspect,High,Accomplice
+SUS159,C078,Neha Joshi,29-01-1988,Female,Fraud investigation history,Low,Witness Turned Suspect
+SUS160,C078,Amit Reddy,31-08-1973,Male,No prior record,High,Main Suspect
+SUS161,C078,Rekha Mehta,13-07-1997,Male,Repeat offender,Low,Accomplice
+SUS162,C079,Vikram Sharma,24-05-1984,Female,No prior record,High,Witness Turned Suspect
+SUS163,C080,Arjun Reddy,28-04-1996,Male,No prior record,Low,Witness Turned Suspect
+SUS164,C081,Rahul Singh,26-09-1988,Female,Previous theft charges,Medium,Accomplice
+SUS165,C081,Imran Das,05-05-1978,Female,No prior record,Low,Witness Turned Suspect
+SUS166,C081,Suresh Nair,20-05-1975,Female,First-time suspect,High,Accomplice
+SUS167,C082,Priya Singh,12-05-1970,Female,Fraud investigation history,High,Witness Turned Suspect
+SUS168,C082,Sameer Das,26-12-1992,Female,Fraud investigation history,High,Main Suspect
+SUS169,C082,Pooja Patel,13-04-1991,Female,No prior record,Low,Accomplice
+SUS170,C083,Nikhil Nair,20-12-1994,Male,Repeat offender,Low,Accomplice
+SUS171,C083,Kavita Mehta,24-07-1990,Female,Previous theft charges,Low,Accomplice
+SUS172,C083,Pooja Singh,15-03-1988,Female,Fraud investigation history,Low,Main Suspect
+SUS173,C084,Anjali Gupta,15-04-1989,Female,Repeat offender,Low,Main Suspect
+SUS174,C084,Arjun Reddy,28-06-1998,Female,Previous theft charges,High,Main Suspect
+SUS175,C085,Karan Sharma,10-11-1996,Female,Repeat offender,Medium,Accomplice
+SUS176,C085,Neha Singh,04-08-1992,Male,No prior record,High,Accomplice
+SUS177,C085,Amit Reddy,12-11-1977,Male,Fraud investigation history,High,Main Suspect
+SUS178,C086,Nikhil Patel,04-10-2002,Female,No prior record,Medium,Main Suspect
+SUS179,C086,Karan Gupta,03-09-1980,Male,No prior record,Low,Accomplice
+SUS180,C087,Rekha Sharma,13-03-1983,Male,Previous theft charges,Medium,Accomplice
+SUS181,C087,Rekha Joshi,31-01-1992,Male,Repeat offender,Medium,Witness Turned Suspect
+SUS182,C088,Suresh Nair,13-05-1972,Male,Fraud investigation history,Low,Main Suspect
+SUS183,C089,Riya Mehta,25-11-1994,Female,First-time suspect,High,Main Suspect
+SUS184,C090,Amit Khan,26-11-1982,Male,Previous theft charges,High,Witness Turned Suspect
+SUS185,C091,Pooja Patel,09-01-1995,Female,First-time suspect,Medium,Witness Turned Suspect
+SUS186,C092,Vikram Nair,25-01-1980,Male,Fraud investigation history,High,Accomplice
+SUS187,C093,Simran Reddy,26-03-1973,Male,No prior record,Medium,Witness Turned Suspect
+SUS188,C094,Pooja Singh,30-03-1982,Male,Previous theft charges,High,Witness Turned Suspect
+SUS189,C094,Simran Patel,13-07-2002,Male,Fraud investigation history,High,Accomplice
+SUS190,C095,Neha Nair,21-08-1979,Female,Previous theft charges,High,Accomplice
+SUS191,C096,Rahul Mehta,29-07-1984,Female,Previous theft charges,High,Witness Turned Suspect
+SUS192,C096,Rohit Joshi,22-04-1992,Female,Previous theft charges,High,Witness Turned Suspect
+SUS193,C096,Pooja Das,11-10-1981,Female,Fraud investigation history,Low,Witness Turned Suspect
+SUS194,C097,Rekha Mehta,18-02-1975,Male,Fraud investigation history,Medium,Main Suspect
+SUS195,C098,Riya Patel,22-02-1971,Female,Previous theft charges,Low,Main Suspect
+SUS196,C098,Simran Joshi,12-01-1991,Male,First-time suspect,Medium,Main Suspect
+SUS197,C098,Rohit Das,17-08-1989,Male,First-time suspect,Medium,Accomplice
+SUS198,C099,Neha Khan,10-12-1997,Male,Repeat offender,Low,Main Suspect
+SUS199,C100,Anjali Das,23-06-1997,Male,Repeat offender,Medium,Accomplice

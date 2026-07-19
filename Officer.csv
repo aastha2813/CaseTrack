@@ -1,0 +1,101 @@
+Officer_Id,Name,Officer_Rank,Department
+O001,Arjun Mehta,Assistant Commissioner,Special Task Force
+O002,Deepak Sharma,Sub-Inspector,Crime Branch
+O003,Rohit Joshi,Assistant Commissioner,Cyber Cell
+O004,Deepak Das,Sub-Inspector,Cyber Cell
+O005,Suresh Nair,Inspector,Cyber Cell
+O006,Amit Reddy,Head Constable,Cyber Cell
+O007,Anjali Patel,Assistant Commissioner,Local Police
+O008,Nitin Mehta,Inspector,Local Police
+O009,Kavita Singh,Inspector,Crime Branch
+O010,Vikram Mehta,Assistant Commissioner,Cyber Cell
+O011,Kavita Nair,Inspector,Crime Branch
+O012,Deepak Sharma,Sub-Inspector,Fraud Investigation Unit
+O013,Simran Mehta,Inspector,Crime Branch
+O014,Pooja Das,Inspector,Fraud Investigation Unit
+O015,Sneha Patel,Sub-Inspector,Local Police
+O016,Anita Nair,Sub-Inspector,Cyber Cell
+O017,Ayesha Das,Head Constable,Fraud Investigation Unit
+O018,Rohit Singh,Inspector,Special Task Force
+O019,Deepak Reddy,Sub-Inspector,Special Task Force
+O020,Simran Joshi,Inspector,Fraud Investigation Unit
+O021,Nitin Sharma,Assistant Commissioner,Crime Branch
+O022,Manoj Das,Sub-Inspector,Special Task Force
+O023,Anita Nair,Sub-Inspector,Cyber Cell
+O024,Riya Das,Head Constable,Local Police
+O025,Simran Das,Inspector,Crime Branch
+O026,Vikram Gupta,Assistant Commissioner,Crime Branch
+O027,Anjali Reddy,Assistant Commissioner,Fraud Investigation Unit
+O028,Vikram Reddy,Sub-Inspector,Special Task Force
+O029,Vikram Gupta,Head Constable,Crime Branch
+O030,Vikram Mehta,Head Constable,Local Police
+O031,Vikram Gupta,Inspector,Special Task Force
+O032,Anita Patel,Sub-Inspector,Fraud Investigation Unit
+O033,Amit Khan,Assistant Commissioner,Special Task Force
+O034,Amit Joshi,Head Constable,Local Police
+O035,Vikram Gupta,Head Constable,Fraud Investigation Unit
+O036,Deepak Khan,Sub-Inspector,Special Task Force
+O037,Ayesha Nair,Head Constable,Cyber Cell
+O038,Anita Gupta,Sub-Inspector,Cyber Cell
+O039,Neha Sharma,Head Constable,Special Task Force
+O040,Neha Khan,Inspector,Fraud Investigation Unit
+O041,Suresh Singh,Sub-Inspector,Local Police
+O042,Anita Gupta,Head Constable,Cyber Cell
+O043,Karan Sharma,Inspector,Cyber Cell
+O044,Pooja Das,Assistant Commissioner,Crime Branch
+O045,Rohit Gupta,Head Constable,Special Task Force
+O046,Anita Singh,Inspector,Crime Branch
+O047,Priya Mehta,Sub-Inspector,Special Task Force
+O048,Ayesha Reddy,Inspector,Crime Branch
+O049,Suresh Das,Assistant Commissioner,Fraud Investigation Unit
+O050,Anjali Patel,Assistant Commissioner,Special Task Force
+O051,Priya Singh,Sub-Inspector,Special Task Force
+O052,Rahul Reddy,Assistant Commissioner,Local Police
+O053,Neha Khan,Sub-Inspector,Crime Branch
+O054,Pooja Das,Inspector,Fraud Investigation Unit
+O055,Neha Singh,Inspector,Fraud Investigation Unit
+O056,Rahul Sharma,Assistant Commissioner,Crime Branch
+O057,Amit Patel,Sub-Inspector,Special Task Force
+O058,Rohit Das,Sub-Inspector,Local Police
+O059,Rohit Patel,Inspector,Crime Branch
+O060,Vikram Khan,Head Constable,Local Police
+O061,Manoj Singh,Inspector,Fraud Investigation Unit
+O062,Neha Gupta,Sub-Inspector,Special Task Force
+O063,Vikram Patel,Assistant Commissioner,Crime Branch
+O064,Rahul Patel,Assistant Commissioner,Cyber Cell
+O065,Riya Sharma,Sub-Inspector,Fraud Investigation Unit
+O066,Neha Joshi,Assistant Commissioner,Crime Branch
+O067,Kavita Joshi,Assistant Commissioner,Local Police
+O068,Vikram Nair,Head Constable,Fraud Investigation Unit
+O069,Deepak Patel,Sub-Inspector,Fraud Investigation Unit
+O070,Manoj Joshi,Sub-Inspector,Crime Branch
+O071,Anita Nair,Sub-Inspector,Cyber Cell
+O072,Vikram Singh,Sub-Inspector,Local Police
+O073,Deepak Reddy,Inspector,Cyber Cell
+O074,Vikram Sharma,Sub-Inspector,Special Task Force
+O075,Manoj Gupta,Inspector,Crime Branch
+O076,Anjali Das,Sub-Inspector,Cyber Cell
+O077,Kavita Das,Sub-Inspector,Cyber Cell
+O078,Arjun Patel,Sub-Inspector,Crime Branch
+O079,Karan Reddy,Sub-Inspector,Cyber Cell
+O080,Anita Patel,Sub-Inspector,Fraud Investigation Unit
+O081,Ayesha Patel,Assistant Commissioner,Crime Branch
+O082,Kavita Joshi,Sub-Inspector,Fraud Investigation Unit
+O083,Nitin Khan,Inspector,Local Police
+O084,Kavita Sharma,Assistant Commissioner,Local Police
+O085,Anita Reddy,Inspector,Local Police
+O086,Rohit Patel,Inspector,Local Police
+O087,Arjun Das,Head Constable,Local Police
+O088,Karan Gupta,Assistant Commissioner,Fraud Investigation Unit
+O089,Kavita Sharma,Head Constable,Fraud Investigation Unit
+O090,Sneha Mehta,Head Constable,Fraud Investigation Unit
+O091,Nitin Reddy,Assistant Commissioner,Local Police
+O092,Rohit Patel,Head Constable,Special Task Force
+O093,Nitin Das,Head Constable,Local Police
+O094,Deepak Joshi,Head Constable,Local Police
+O095,Simran Gupta,Assistant Commissioner,Crime Branch
+O096,Simran Nair,Sub-Inspector,Local Police
+O097,Rohit Singh,Sub-Inspector,Special Task Force
+O098,Vikram Singh,Inspector,Special Task Force
+O099,Deepak Joshi,Inspector,Fraud Investigation Unit
+O100,Anita Patel,Inspector,Special Task Force

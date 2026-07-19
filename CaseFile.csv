@@ -1,0 +1,104 @@
+Case_Id,Title,Description,Start_Date,Status,Crime_Type
+C001,Jewelry Theft,Gold jewelry stolen from residence,26-01-2025,Under Investigation,Theft
+C002,Bank Fraud,Unauthorized bank transactions detected,29-11-2025,Under Investigation,Fraud
+C003,Jewelry Theft,Gold jewelry stolen from residence,26-07-2025,Under Investigation,Theft
+C004,Email Phishing Scam,Multiple victims of phishing attack,23-12-2023,Closed,Cybercrime
+C005,Email Phishing Scam,Multiple victims of phishing attack,10-11-2023,Closed,Cybercrime
+C006,Domestic Violence Case,Reported abuse in household,28-10-2025,Under Investigation,Assault
+C007,Homicide Investigation,Suspicious death under investigation,24-02-2024,Under Investigation,Murder
+C008,ATM Robbery,Cash stolen from ATM machine,17-03-2024,Closed,Robbery
+C009,Bank Fraud,Unauthorized bank transactions detected,08-11-2025,Closed,Fraud
+C010,Homicide Investigation,Suspicious death under investigation,13-11-2024,Closed,Murder
+C011,Convenience Store Robbery,Armed robbery at local store,01-01-2024,Open,Robbery
+C012,Domestic Violence Case,Reported abuse in household,24-02-2023,Open,Assault
+C013,Insurance Fraud,Fake insurance claims submitted,11-04-2024,Under Investigation,Fraud
+C014,Vehicle Theft,Car stolen from parking lot,11-10-2024,Open,Theft
+C015,Convenience Store Robbery,Armed robbery at local store,14-06-2025,Under Investigation,Robbery
+C016,Jewelry Theft,Gold jewelry stolen from residence,31-08-2023,Under Investigation,Theft
+C017,Convenience Store Robbery,Armed robbery at local store,18-10-2024,Under Investigation,Robbery
+C018,Convenience Store Robbery,Armed robbery at local store,12-11-2023,Under Investigation,Robbery
+C019,Domestic Violence Case,Reported abuse in household,14-08-2023,Open,Assault
+C020,ATM Robbery,Cash stolen from ATM machine,16-01-2024,Open,Robbery
+C021,Data Breach,Company data leak detected,03-05-2023,Closed,Cybercrime
+C022,Data Breach,Company data leak detected,09-09-2025,Under Investigation,Cybercrime
+C023,Convenience Store Robbery,Armed robbery at local store,15-02-2023,Under Investigation,Robbery
+C024,Convenience Store Robbery,Armed robbery at local store,31-10-2023,Under Investigation,Robbery
+C025,Data Breach,Company data leak detected,19-08-2024,Under Investigation,Cybercrime
+C026,Vehicle Theft,Car stolen from parking lot,29-01-2024,Closed,Theft
+C027,Data Breach,Company data leak detected,17-02-2023,Closed,Cybercrime
+C028,ATM Robbery,Cash stolen from ATM machine,04-04-2025,Under Investigation,Robbery
+C029,Convenience Store Robbery,Armed robbery at local store,11-04-2023,Under Investigation,Robbery
+C030,Email Phishing Scam,Multiple victims of phishing attack,16-11-2023,Under Investigation,Cybercrime
+C031,Bank Fraud,Unauthorized bank transactions detected,15-10-2024,Open,Fraud
+C032,Email Phishing Scam,Multiple victims of phishing attack,17-05-2025,Closed,Cybercrime
+C033,ATM Robbery,Cash stolen from ATM machine,02-02-2024,Closed,Robbery
+C034,Jewelry Theft,Gold jewelry stolen from residence,12-01-2025,Closed,Theft
+C035,Data Breach,Company data leak detected,07-04-2024,Open,Cybercrime
+C036,Bank Fraud,Unauthorized bank transactions detected,12-03-2024,Open,Fraud
+C037,Data Breach,Company data leak detected,31-05-2024,Closed,Cybercrime
+C038,Vehicle Theft,Car stolen from parking lot,01-08-2025,Closed,Theft
+C039,Domestic Violence Case,Reported abuse in household,18-09-2025,Closed,Assault
+C040,Insurance Fraud,Fake insurance claims submitted,25-07-2025,Open,Fraud
+C041,Jewelry Theft,Gold jewelry stolen from residence,29-08-2023,Under Investigation,Theft
+C042,ATM Robbery,Cash stolen from ATM machine,05-04-2024,Closed,Robbery
+C043,Bank Fraud,Unauthorized bank transactions detected,01-01-2024,Open,Fraud
+C044,Convenience Store Robbery,Armed robbery at local store,29-10-2023,Under Investigation,Robbery
+C045,Bank Fraud,Unauthorized bank transactions detected,16-11-2023,Under Investigation,Fraud
+C046,Email Phishing Scam,Multiple victims of phishing attack,25-08-2024,Open,Cybercrime
+C047,Vehicle Theft,Car stolen from parking lot,17-06-2025,Closed,Theft
+C048,Data Breach,Company data leak detected,17-11-2024,Closed,Cybercrime
+C049,Homicide Investigation,Suspicious death under investigation,18-08-2025,Under Investigation,Murder
+C050,Jewelry Theft,Gold jewelry stolen from residence,11-09-2024,Under Investigation,Theft
+C051,Email Phishing Scam,Multiple victims of phishing attack,12-07-2025,Under Investigation,Cybercrime
+C052,Vehicle Theft,Car stolen from parking lot,18-08-2023,Under Investigation,Theft
+C053,Homicide Investigation,Suspicious death under investigation,20-02-2023,Open,Murder
+C054,Homicide Investigation,Suspicious death under investigation,02-06-2024,Under Investigation,Murder
+C055,Convenience Store Robbery,Armed robbery at local store,07-10-2023,Open,Robbery
+C056,Email Phishing Scam,Multiple victims of phishing attack,26-04-2025,Open,Cybercrime
+C057,ATM Robbery,Cash stolen from ATM machine,19-07-2023,Closed,Robbery
+C058,Insurance Fraud,Fake insurance claims submitted,19-07-2023,Under Investigation,Fraud
+C059,Convenience Store Robbery,Armed robbery at local store,25-11-2024,Closed,Robbery
+C060,Convenience Store Robbery,Armed robbery at local store,15-11-2023,Open,Robbery
+C061,Bank Fraud,Unauthorized bank transactions detected,04-09-2025,Under Investigation,Fraud
+C062,ATM Robbery,Cash stolen from ATM machine,04-11-2025,Closed,Robbery
+C063,Insurance Fraud,Fake insurance claims submitted,30-01-2025,Under Investigation,Fraud
+C064,Bank Fraud,Unauthorized bank transactions detected,20-12-2023,Open,Fraud
+C065,Email Phishing Scam,Multiple victims of phishing attack,22-02-2025,Closed,Cybercrime
+C066,Bank Fraud,Unauthorized bank transactions detected,27-03-2023,Under Investigation,Fraud
+C067,Jewelry Theft,Gold jewelry stolen from residence,25-05-2024,Open,Theft
+C068,Domestic Violence Case,Reported abuse in household,02-01-2025,Open,Assault
+C069,Bank Fraud,Unauthorized bank transactions detected,24-07-2025,Under Investigation,Fraud
+C070,Insurance Fraud,Fake insurance claims submitted,19-06-2024,Closed,Fraud
+C071,Email Phishing Scam,Multiple victims of phishing attack,21-10-2024,Closed,Cybercrime
+C072,Convenience Store Robbery,Armed robbery at local store,23-10-2024,Closed,Robbery
+C073,Bank Fraud,Unauthorized bank transactions detected,17-01-2025,Open,Fraud
+C074,Bank Fraud,Unauthorized bank transactions detected,08-02-2024,Under Investigation,Fraud
+C075,Email Phishing Scam,Multiple victims of phishing attack,25-09-2025,Closed,Cybercrime
+C076,Bank Fraud,Unauthorized bank transactions detected,16-01-2024,Under Investigation,Fraud
+C077,Convenience Store Robbery,Armed robbery at local store,08-01-2023,Under Investigation,Robbery
+C078,Domestic Violence Case,Reported abuse in household,13-12-2023,Open,Assault
+C079,Insurance Fraud,Fake insurance claims submitted,16-03-2023,Closed,Fraud
+C080,Convenience Store Robbery,Armed robbery at local store,07-10-2024,Open,Robbery
+C081,Insurance Fraud,Fake insurance claims submitted,14-04-2023,Closed,Fraud
+C082,Insurance Fraud,Fake insurance claims submitted,30-08-2024,Closed,Fraud
+C083,Convenience Store Robbery,Armed robbery at local store,28-06-2024,Under Investigation,Robbery
+C084,Convenience Store Robbery,Armed robbery at local store,30-06-2023,Under Investigation,Robbery
+C085,Insurance Fraud,Fake insurance claims submitted,30-01-2025,Under Investigation,Fraud
+C086,Convenience Store Robbery,Armed robbery at local store,22-04-2024,Under Investigation,Robbery
+C087,ATM Robbery,Cash stolen from ATM machine,14-03-2023,Closed,Robbery
+C088,Homicide Investigation,Suspicious death under investigation,11-05-2025,Closed,Murder
+C089,Bank Fraud,Unauthorized bank transactions detected,25-08-2025,Open,Fraud
+C090,Vehicle Theft,Car stolen from parking lot,04-07-2023,Under Investigation,Theft
+C091,Bank Fraud,Unauthorized bank transactions detected,07-04-2023,Open,Fraud
+C092,Vehicle Theft,Car stolen from parking lot,16-12-2023,Under Investigation,Theft
+C093,Data Breach,Company data leak detected,29-05-2025,Closed,Cybercrime
+C094,Jewelry Theft,Gold jewelry stolen from residence,20-07-2023,Closed,Theft
+C095,Data Breach,Company data leak detected,01-08-2025,Under Investigation,Cybercrime
+C096,Insurance Fraud,Fake insurance claims submitted,15-05-2023,Closed,Fraud
+C097,Jewelry Theft,Gold jewelry stolen from residence,26-02-2024,Under Investigation,Theft
+C098,Domestic Violence Case,Reported abuse in household,11-01-2024,Open,Assault
+C099,Jewelry Theft,Gold jewelry stolen from residence,01-06-2025,Under Investigation,Theft
+C100,Email Phishing Scam,Multiple victims of phishing attack,20-11-2025,Closed,Cybercrime
+C101,Test Cybercrime,Test case for verification,12-04-2026,Open,Cybercrime
+C102,Murder101,married woman of 35yrs murdered in sleep,12-04-2026,Open,Murder
+C103,Theft,Theft in Alpha Mall,12-04-2026,Open,Theft

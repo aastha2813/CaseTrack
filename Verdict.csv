@@ -1,0 +1,101 @@
+Verdict_Id,Case_Id,Decision,Date,Remarks
+V001,C001,Accused Sentenced to 3 Years Imprisonment,04-01-2024,Insufficient evidence to prove guilt beyond reasonable doubt.
+V002,C002,Accused Sentenced to 5 Years Imprisonment,14-03-2024,Further hearings scheduled; proceedings ongoing.
+V003,C003,Case Under Investigation,11-08-2024,Judgment delivered after reviewing all evidence and witness statements.
+V004,C004,Accused Acquitted,15-01-2024,Sentence pronounced considering severity of the crime.
+V005,C005,Case Under Investigation,21-07-2025,Bail granted with conditions pending further trial.
+V006,C006,Case Dismissed,27-01-2025,Insufficient evidence to prove guilt beyond reasonable doubt.
+V007,C007,Accused Sentenced to 5 Years Imprisonment,21-02-2024,Bail granted with conditions pending further trial.
+V008,C008,Case Under Investigation,31-01-2024,Sentence pronounced considering severity of the crime.
+V009,C009,Accused Sentenced to 5 Years Imprisonment,27-11-2024,Further hearings scheduled; proceedings ongoing.
+V010,C010,Trial Ongoing,09-05-2025,Further hearings scheduled; proceedings ongoing.
+V011,C011,Case Under Investigation,02-03-2024,Conviction based on strong forensic and documentary evidence.
+V012,C012,Bail Granted,18-09-2024,Case dismissed due to lack of substantial proof.
+V013,C013,Accused Convicted,05-07-2023,Case dismissed due to lack of substantial proof.
+V014,C014,Accused Convicted,04-05-2025,Judgment delivered after reviewing all evidence and witness statements.
+V015,C015,Accused Convicted,01-02-2025,Case dismissed due to lack of substantial proof.
+V016,C016,Trial Ongoing,25-10-2024,Insufficient evidence to prove guilt beyond reasonable doubt.
+V017,C017,Case Dismissed,10-02-2023,Bail granted with conditions pending further trial.
+V018,C018,Case Under Investigation,05-11-2025,Case dismissed due to lack of substantial proof.
+V019,C019,Trial Ongoing,21-06-2023,Conviction based on strong forensic and documentary evidence.
+V020,C020,Accused Sentenced to 5 Years Imprisonment,23-09-2024,Case dismissed due to lack of substantial proof.
+V021,C021,Accused Sentenced to 3 Years Imprisonment,20-09-2024,Investigation continues with additional leads being examined.
+V022,C022,Accused Acquitted,24-09-2023,Judgment delivered after reviewing all evidence and witness statements.
+V023,C023,Accused Convicted,31-08-2023,Conviction based on strong forensic and documentary evidence.
+V024,C024,Bail Granted,20-01-2025,Further hearings scheduled; proceedings ongoing.
+V025,C025,Accused Convicted,29-01-2024,Judgment delivered after reviewing all evidence and witness statements.
+V026,C026,Accused Convicted,15-03-2023,Judgment delivered after reviewing all evidence and witness statements.
+V027,C027,Accused Acquitted,23-06-2023,Further hearings scheduled; proceedings ongoing.
+V028,C028,Case Under Investigation,03-03-2025,Bail granted with conditions pending further trial.
+V029,C029,Bail Granted,28-12-2024,Case dismissed due to lack of substantial proof.
+V030,C030,Accused Sentenced to 5 Years Imprisonment,21-01-2026,Judgment delivered after reviewing all evidence and witness statements.
+V031,C031,Bail Granted,18-03-2023,Judgment delivered after reviewing all evidence and witness statements.
+V032,C032,Case Under Investigation,17-11-2025,Bail granted with conditions pending further trial.
+V033,C033,Accused Acquitted,25-10-2024,Further hearings scheduled; proceedings ongoing.
+V034,C034,Accused Sentenced to 3 Years Imprisonment,01-02-2024,Further hearings scheduled; proceedings ongoing.
+V035,C035,Accused Acquitted,19-02-2024,Sentence pronounced considering severity of the crime.
+V036,C036,Trial Ongoing,26-11-2024,Insufficient evidence to prove guilt beyond reasonable doubt.
+V037,C037,Accused Acquitted,16-04-2025,Insufficient evidence to prove guilt beyond reasonable doubt.
+V038,C038,Case Dismissed,18-03-2026,Conviction based on strong forensic and documentary evidence.
+V039,C039,Accused Sentenced to 5 Years Imprisonment,25-05-2025,Case dismissed due to lack of substantial proof.
+V040,C040,Bail Granted,19-08-2025,Conviction based on strong forensic and documentary evidence.
+V041,C041,Trial Ongoing,24-07-2024,Conviction based on strong forensic and documentary evidence.
+V042,C042,Bail Granted,22-11-2023,Conviction based on strong forensic and documentary evidence.
+V043,C043,Accused Sentenced to 3 Years Imprisonment,04-01-2024,Case dismissed due to lack of substantial proof.
+V044,C044,Accused Acquitted,04-01-2026,Judgment delivered after reviewing all evidence and witness statements.
+V045,C045,Bail Granted,10-01-2023,Conviction based on strong forensic and documentary evidence.
+V046,C046,Accused Sentenced to 3 Years Imprisonment,06-06-2025,Sentence pronounced considering severity of the crime.
+V047,C047,Case Under Investigation,07-03-2025,Case dismissed due to lack of substantial proof.
+V048,C048,Bail Granted,15-02-2025,Insufficient evidence to prove guilt beyond reasonable doubt.
+V049,C049,Case Dismissed,29-11-2023,Further hearings scheduled; proceedings ongoing.
+V050,C050,Accused Convicted,06-03-2024,Investigation continues with additional leads being examined.
+V051,C051,Accused Sentenced to 5 Years Imprisonment,10-06-2025,Further hearings scheduled; proceedings ongoing.
+V052,C052,Accused Acquitted,10-08-2023,Investigation continues with additional leads being examined.
+V053,C053,Accused Sentenced to 5 Years Imprisonment,08-04-2023,Sentence pronounced considering severity of the crime.
+V054,C054,Accused Convicted,21-04-2025,Investigation continues with additional leads being examined.
+V055,C055,Trial Ongoing,05-08-2023,Further hearings scheduled; proceedings ongoing.
+V056,C056,Case Dismissed,17-05-2025,Investigation continues with additional leads being examined.
+V057,C057,Bail Granted,28-08-2024,Investigation continues with additional leads being examined.
+V058,C058,Bail Granted,18-08-2023,Further hearings scheduled; proceedings ongoing.
+V059,C059,Accused Sentenced to 3 Years Imprisonment,19-06-2025,Investigation continues with additional leads being examined.
+V060,C060,Accused Sentenced to 3 Years Imprisonment,27-03-2024,Case dismissed due to lack of substantial proof.
+V061,C061,Accused Convicted,15-04-2024,Insufficient evidence to prove guilt beyond reasonable doubt.
+V062,C062,Case Under Investigation,28-09-2023,Case dismissed due to lack of substantial proof.
+V063,C063,Case Under Investigation,28-05-2025,Conviction based on strong forensic and documentary evidence.
+V064,C064,Bail Granted,05-10-2024,Bail granted with conditions pending further trial.
+V065,C065,Accused Convicted,06-02-2025,Insufficient evidence to prove guilt beyond reasonable doubt.
+V066,C066,Accused Acquitted,14-11-2024,Judgment delivered after reviewing all evidence and witness statements.
+V067,C067,Accused Acquitted,16-09-2025,Investigation continues with additional leads being examined.
+V068,C068,Case Dismissed,13-10-2025,Sentence pronounced considering severity of the crime.
+V069,C069,Trial Ongoing,03-01-2024,Case dismissed due to lack of substantial proof.
+V070,C070,Accused Acquitted,21-09-2024,Case dismissed due to lack of substantial proof.
+V071,C071,Case Dismissed,22-04-2025,Further hearings scheduled; proceedings ongoing.
+V072,C072,Bail Granted,18-07-2025,Further hearings scheduled; proceedings ongoing.
+V073,C073,Bail Granted,24-09-2024,Sentence pronounced considering severity of the crime.
+V074,C074,Accused Sentenced to 3 Years Imprisonment,02-01-2026,Bail granted with conditions pending further trial.
+V075,C075,Accused Acquitted,13-02-2023,Insufficient evidence to prove guilt beyond reasonable doubt.
+V076,C076,Case Under Investigation,14-05-2024,Conviction based on strong forensic and documentary evidence.
+V077,C077,Case Under Investigation,15-02-2023,Insufficient evidence to prove guilt beyond reasonable doubt.
+V078,C078,Trial Ongoing,22-10-2024,Judgment delivered after reviewing all evidence and witness statements.
+V079,C079,Accused Acquitted,17-08-2025,Conviction based on strong forensic and documentary evidence.
+V080,C080,Case Under Investigation,08-12-2024,Investigation continues with additional leads being examined.
+V081,C081,Accused Acquitted,10-02-2024,Judgment delivered after reviewing all evidence and witness statements.
+V082,C082,Case Dismissed,14-06-2025,Insufficient evidence to prove guilt beyond reasonable doubt.
+V083,C083,Accused Acquitted,06-06-2023,Judgment delivered after reviewing all evidence and witness statements.
+V084,C084,Accused Sentenced to 3 Years Imprisonment,23-12-2023,Further hearings scheduled; proceedings ongoing.
+V085,C085,Accused Convicted,10-07-2025,Further hearings scheduled; proceedings ongoing.
+V086,C086,Case Under Investigation,30-04-2025,Investigation continues with additional leads being examined.
+V087,C087,Trial Ongoing,16-11-2025,Investigation continues with additional leads being examined.
+V088,C088,Accused Convicted,08-08-2025,Case dismissed due to lack of substantial proof.
+V089,C089,Accused Sentenced to 3 Years Imprisonment,18-12-2024,Further hearings scheduled; proceedings ongoing.
+V090,C090,Bail Granted,16-07-2025,Case dismissed due to lack of substantial proof.
+V091,C091,Trial Ongoing,01-05-2025,Conviction based on strong forensic and documentary evidence.
+V092,C092,Accused Convicted,23-04-2023,Investigation continues with additional leads being examined.
+V093,C093,Accused Convicted,12-06-2023,Case dismissed due to lack of substantial proof.
+V094,C094,Bail Granted,17-08-2024,Insufficient evidence to prove guilt beyond reasonable doubt.
+V095,C095,Bail Granted,10-03-2023,Case dismissed due to lack of substantial proof.
+V096,C096,Accused Convicted,02-12-2024,Further hearings scheduled; proceedings ongoing.
+V097,C097,Case Dismissed,06-05-2023,Case dismissed due to lack of substantial proof.
+V098,C098,Trial Ongoing,02-08-2023,Further hearings scheduled; proceedings ongoing.
+V099,C099,Accused Sentenced to 5 Years Imprisonment,29-06-2024,Case dismissed due to lack of substantial proof.
+V100,C100,Case Dismissed,12-01-2024,Conviction based on strong forensic and documentary evidence.

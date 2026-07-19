@@ -1,0 +1,221 @@
+Evidence_Id,Case_Id,Type,Description,Storage_Location
+E001,C001,Documentary,Photographic evidence recorded,Evidence Room 2
+E002,C001,Biological,DNA sample preserved,Evidence Room 2
+E003,C002,Physical,Weapon sealed as evidence,Forensic Lab
+E004,C002,Documentary,DNA sample preserved,Locker B
+E005,C003,Documentary,Weapon sealed as evidence,Locker C
+E006,C003,Physical,Glass fragments collected,Locker D
+E007,C004,Biological,Weapon sealed as evidence,Locker D
+E008,C004,Documentary,Weapon sealed as evidence,Evidence Room 1
+E009,C005,Physical,Weapon sealed as evidence,Locker D
+E010,C005,Biological,Financial transaction logs archived,Locker C
+E011,C006,Physical,Blood sample secured,Locker B
+E012,C006,Physical,DNA sample preserved,Evidence Room 2
+E013,C007,Physical,Weapon sealed as evidence,Forensic Lab
+E014,C007,Physical,DNA sample preserved,Locker D
+E015,C008,Digital,DNA sample preserved,Evidence Room 2
+E016,C008,Biological,DNA sample preserved,Locker D
+E017,C009,Biological,Weapon sealed as evidence,Locker B
+E018,C009,Biological,Mobile data extracted and stored,Evidence Room 2
+E019,C010,Digital,Fingerprint sample preserved,Locker C
+E020,C010,Biological,CCTV recording stored,Locker C
+E021,C011,Documentary,Fingerprint sample preserved,Forensic Lab
+E022,C011,Documentary,Glass fragments collected,Locker B
+E023,C012,Documentary,Email records documented,Locker B
+E024,C012,Digital,DNA sample preserved,Locker B
+E025,C013,Physical,Weapon sealed as evidence,Locker B
+E026,C013,Physical,Financial transaction logs archived,Evidence Room 2
+E027,C014,Physical,Fingerprint sample preserved,Locker A
+E028,C014,Digital,Financial transaction logs archived,Evidence Room 1
+E029,C015,Physical,Photographic evidence recorded,Locker C
+E030,C015,Documentary,CCTV recording stored,Forensic Lab
+E031,C016,Documentary,Glass fragments collected,Locker C
+E032,C016,Physical,Blood sample secured,Forensic Lab
+E033,C017,Digital,Blood sample secured,Locker A
+E034,C017,Physical,Weapon sealed as evidence,Forensic Lab
+E035,C018,Digital,Photographic evidence recorded,Evidence Room 1
+E036,C018,Biological,Fingerprint sample preserved,Evidence Room 2
+E037,C019,Digital,Glass fragments collected,Evidence Room 1
+E038,C019,Biological,Weapon sealed as evidence,Locker B
+E039,C020,Digital,CCTV recording stored,Locker B
+E040,C020,Documentary,Fingerprint sample preserved,Forensic Lab
+E041,C021,Documentary,Photographic evidence recorded,Forensic Lab
+E042,C021,Biological,Photographic evidence recorded,Forensic Lab
+E043,C022,Digital,Weapon sealed as evidence,Evidence Room 1
+E044,C022,Digital,Photographic evidence recorded,Locker D
+E045,C023,Physical,Email records documented,Locker A
+E046,C023,Biological,DNA sample preserved,Locker C
+E047,C024,Digital,CCTV recording stored,Locker B
+E048,C024,Physical,Glass fragments collected,Forensic Lab
+E049,C025,Biological,Glass fragments collected,Evidence Room 1
+E050,C025,Biological,Photographic evidence recorded,Locker C
+E051,C026,Digital,Financial transaction logs archived,Locker A
+E052,C026,Documentary,Photographic evidence recorded,Locker B
+E053,C027,Physical,Blood sample secured,Locker D
+E054,C027,Biological,Photographic evidence recorded,Evidence Room 2
+E055,C028,Digital,Photographic evidence recorded,Forensic Lab
+E056,C028,Biological,Financial transaction logs archived,Forensic Lab
+E057,C029,Documentary,Weapon sealed as evidence,Forensic Lab
+E058,C029,Documentary,Weapon sealed as evidence,Evidence Room 2
+E059,C030,Digital,Financial transaction logs archived,Forensic Lab
+E060,C030,Physical,Email records documented,Evidence Room 2
+E061,C031,Documentary,Blood sample secured,Locker D
+E062,C031,Biological,Glass fragments collected,Locker B
+E063,C032,Documentary,Email records documented,Locker A
+E064,C032,Biological,Mobile data extracted and stored,Locker A
+E065,C033,Biological,Mobile data extracted and stored,Locker D
+E066,C033,Digital,Mobile data extracted and stored,Locker A
+E067,C034,Physical,Email records documented,Forensic Lab
+E068,C034,Documentary,Photographic evidence recorded,Forensic Lab
+E069,C035,Physical,Fingerprint sample preserved,Locker D
+E070,C035,Biological,Weapon sealed as evidence,Evidence Room 1
+E071,C036,Digital,Financial transaction logs archived,Locker B
+E072,C036,Documentary,Fingerprint sample preserved,Evidence Room 2
+E073,C037,Digital,Mobile data extracted and stored,Locker D
+E074,C037,Digital,CCTV recording stored,Locker C
+E075,C038,Physical,Mobile data extracted and stored,Locker C
+E076,C038,Biological,Glass fragments collected,Locker A
+E077,C039,Documentary,Mobile data extracted and stored,Evidence Room 1
+E078,C039,Biological,Fingerprint sample preserved,Locker B
+E079,C040,Biological,Fingerprint sample preserved,Evidence Room 2
+E080,C040,Biological,Photographic evidence recorded,Locker D
+E081,C041,Digital,Glass fragments collected,Evidence Room 1
+E082,C041,Documentary,Mobile data extracted and stored,Locker C
+E083,C042,Digital,DNA sample preserved,Evidence Room 1
+E084,C042,Physical,Fingerprint sample preserved,Locker A
+E085,C043,Digital,Blood sample secured,Locker A
+E086,C043,Digital,DNA sample preserved,Evidence Room 1
+E087,C044,Physical,Email records documented,Locker B
+E088,C044,Documentary,Blood sample secured,Evidence Room 1
+E089,C045,Biological,Photographic evidence recorded,Locker C
+E090,C045,Documentary,Weapon sealed as evidence,Locker B
+E091,C046,Biological,Photographic evidence recorded,Forensic Lab
+E092,C046,Documentary,CCTV recording stored,Evidence Room 2
+E093,C047,Documentary,Blood sample secured,Locker A
+E094,C047,Digital,DNA sample preserved,Locker C
+E095,C048,Digital,Mobile data extracted and stored,Evidence Room 2
+E096,C048,Physical,Blood sample secured,Locker A
+E097,C049,Biological,Financial transaction logs archived,Locker A
+E098,C049,Biological,Mobile data extracted and stored,Locker C
+E099,C050,Documentary,Weapon sealed as evidence,Evidence Room 1
+E100,C050,Digital,Email records documented,Locker A
+E101,C051,Digital,Glass fragments collected,Locker D
+E102,C051,Documentary,Financial transaction logs archived,Locker C
+E103,C052,Biological,Financial transaction logs archived,Evidence Room 2
+E104,C052,Physical,Mobile data extracted and stored,Evidence Room 2
+E105,C053,Digital,Mobile data extracted and stored,Evidence Room 1
+E106,C053,Biological,Glass fragments collected,Evidence Room 1
+E107,C054,Physical,DNA sample preserved,Forensic Lab
+E108,C054,Physical,Blood sample secured,Evidence Room 1
+E109,C055,Digital,Mobile data extracted and stored,Evidence Room 1
+E110,C055,Documentary,Mobile data extracted and stored,Evidence Room 2
+E111,C056,Documentary,Financial transaction logs archived,Locker A
+E112,C056,Documentary,Mobile data extracted and stored,Locker D
+E113,C057,Documentary,Glass fragments collected,Forensic Lab
+E114,C057,Physical,Blood sample secured,Locker D
+E115,C058,Digital,Blood sample secured,Forensic Lab
+E116,C058,Digital,Email records documented,Forensic Lab
+E117,C059,Digital,Email records documented,Locker D
+E118,C059,Documentary,CCTV recording stored,Evidence Room 1
+E119,C060,Documentary,Glass fragments collected,Locker C
+E120,C060,Biological,Mobile data extracted and stored,Forensic Lab
+E121,C061,Biological,Mobile data extracted and stored,Locker A
+E122,C061,Digital,Financial transaction logs archived,Locker A
+E123,C062,Physical,DNA sample preserved,Evidence Room 2
+E124,C062,Documentary,DNA sample preserved,Locker C
+E125,C063,Biological,Blood sample secured,Locker C
+E126,C063,Biological,Fingerprint sample preserved,Evidence Room 2
+E127,C064,Biological,Weapon sealed as evidence,Locker A
+E128,C064,Physical,Financial transaction logs archived,Locker A
+E129,C065,Physical,Photographic evidence recorded,Evidence Room 2
+E130,C065,Digital,Fingerprint sample preserved,Locker D
+E131,C066,Documentary,DNA sample preserved,Evidence Room 2
+E132,C066,Documentary,Glass fragments collected,Locker C
+E133,C067,Digital,Financial transaction logs archived,Evidence Room 1
+E134,C067,Physical,Blood sample secured,Locker C
+E135,C068,Digital,Blood sample secured,Forensic Lab
+E136,C068,Physical,Blood sample secured,Locker A
+E137,C069,Biological,CCTV recording stored,Locker D
+E138,C069,Biological,Fingerprint sample preserved,Evidence Room 1
+E139,C070,Digital,Photographic evidence recorded,Locker B
+E140,C070,Documentary,Email records documented,Evidence Room 1
+E141,C071,Documentary,Fingerprint sample preserved,Forensic Lab
+E142,C071,Digital,CCTV recording stored,Locker C
+E143,C072,Documentary,Photographic evidence recorded,Evidence Room 2
+E144,C072,Digital,Glass fragments collected,Evidence Room 1
+E145,C073,Digital,Mobile data extracted and stored,Evidence Room 2
+E146,C073,Physical,Blood sample secured,Locker C
+E147,C074,Physical,CCTV recording stored,Locker D
+E148,C074,Documentary,Mobile data extracted and stored,Forensic Lab
+E149,C075,Biological,Fingerprint sample preserved,Locker C
+E150,C075,Biological,Weapon sealed as evidence,Locker D
+E151,C076,Biological,Fingerprint sample preserved,Locker B
+E152,C076,Biological,Fingerprint sample preserved,Locker D
+E153,C077,Digital,Photographic evidence recorded,Evidence Room 1
+E154,C077,Physical,Mobile data extracted and stored,Locker B
+E155,C078,Digital,Financial transaction logs archived,Evidence Room 2
+E156,C078,Biological,Weapon sealed as evidence,Evidence Room 2
+E157,C079,Biological,DNA sample preserved,Locker A
+E158,C079,Digital,Financial transaction logs archived,Evidence Room 1
+E159,C080,Digital,Glass fragments collected,Locker D
+E160,C080,Physical,Mobile data extracted and stored,Locker D
+E161,C081,Digital,Fingerprint sample preserved,Locker A
+E162,C081,Biological,DNA sample preserved,Locker B
+E163,C082,Digital,Blood sample secured,Forensic Lab
+E164,C082,Digital,Financial transaction logs archived,Locker C
+E165,C083,Documentary,Fingerprint sample preserved,Locker C
+E166,C083,Documentary,Email records documented,Evidence Room 1
+E167,C084,Digital,CCTV recording stored,Locker D
+E168,C084,Physical,Mobile data extracted and stored,Locker C
+E169,C085,Biological,Glass fragments collected,Locker D
+E170,C085,Physical,Glass fragments collected,Evidence Room 2
+E171,C086,Documentary,DNA sample preserved,Locker A
+E172,C086,Documentary,Blood sample secured,Locker B
+E173,C087,Physical,Glass fragments collected,Evidence Room 2
+E174,C087,Physical,Blood sample secured,Evidence Room 2
+E175,C088,Biological,DNA sample preserved,Locker A
+E176,C088,Digital,Photographic evidence recorded,Forensic Lab
+E177,C089,Digital,CCTV recording stored,Locker B
+E178,C089,Biological,DNA sample preserved,Locker B
+E179,C090,Physical,Fingerprint sample preserved,Evidence Room 2
+E180,C090,Physical,Weapon sealed as evidence,Forensic Lab
+E181,C091,Physical,Glass fragments collected,Forensic Lab
+E182,C091,Biological,Financial transaction logs archived,Locker D
+E183,C092,Biological,DNA sample preserved,Forensic Lab
+E184,C092,Biological,Glass fragments collected,Evidence Room 1
+E185,C093,Digital,DNA sample preserved,Forensic Lab
+E186,C093,Biological,Blood sample secured,Locker A
+E187,C094,Digital,Fingerprint sample preserved,Locker A
+E188,C094,Digital,Weapon sealed as evidence,Locker A
+E189,C095,Digital,Fingerprint sample preserved,Locker C
+E190,C095,Documentary,Financial transaction logs archived,Locker A
+E191,C096,Biological,DNA sample preserved,Locker D
+E192,C096,Physical,Fingerprint sample preserved,Locker B
+E193,C097,Biological,Glass fragments collected,Evidence Room 2
+E194,C097,Digital,Glass fragments collected,Locker D
+E195,C098,Physical,Glass fragments collected,Locker A
+E196,C098,Documentary,DNA sample preserved,Evidence Room 2
+E197,C099,Documentary,Glass fragments collected,Evidence Room 1
+E198,C099,Biological,Weapon sealed as evidence,Locker B
+E199,C100,Biological,Weapon sealed as evidence,Forensic Lab
+E200,C100,Digital,Weapon sealed as evidence,Evidence Room 2
+E201,C101,Documentary,Weapon sealed as evidence,Locker C
+E202,C101,Biological,Blood sample secured,Evidence Room 2
+E203,C102,Biological,Blood sample secured,Locker C
+E204,C102,Documentary,Fingerprint sample preserved,Locker C
+E205,C103,Physical,Weapon sealed as evidence,Locker A
+E206,C103,Biological,Financial transaction logs archived,Locker A
+E207,C104,Documentary,CCTV recording stored,Locker B
+E208,C104,Biological,CCTV recording stored,Evidence Room 1
+E209,C105,Biological,Glass fragments collected,Locker D
+E210,C105,Biological,Financial transaction logs archived,Locker B
+E211,C106,Biological,DNA sample preserved,Locker A
+E212,C106,Biological,Photographic evidence recorded,Locker C
+E213,C107,Documentary,Fingerprint sample preserved,Evidence Room 1
+E214,C107,Biological,DNA sample preserved,Locker A
+E215,C108,Biological,Mobile data extracted and stored,Forensic Lab
+E216,C108,Biological,Financial transaction logs archived,Locker C
+E217,C109,Physical,Photographic evidence recorded,Locker B
+E218,C109,Physical,Mobile data extracted and stored,Locker B
+E219,C110,Documentary,CCTV recording stored,Locker A
+E220,C110,Biological,DNA sample preserved,Locker B
