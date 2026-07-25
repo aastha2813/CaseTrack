@@ -2,7 +2,7 @@
    CaseTrack – app.js  (Frontend SPA Logic)
    ───────────────────────────────────────────────────────────── */
 
-const API = 'http://localhost:3000/api';
+const API = 'https://casetrack-bluv.onrender.com/api';
 
 /* ─── State ─── */
 let allCases = [];
