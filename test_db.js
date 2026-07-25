@@ -1,59 +1,32 @@
-const sql = require('mssql/msnodesqlv8');
+const { Pool } = require('pg');
+require('dotenv').config();
 
-const configs = [
-  {
-    server: 'localhost\\SQLEXPRESS',
-    database: 'CaseTrack',
-    driver: 'msnodesqlv8',
-    options: { trustedConnection: true, trustServerCertificate: true }
-  },
-  {
-    server: 'localhost\\SQLEXPRESS',
-    database: 'CaseTrack',
-    driver: 'msnodesqlv8',
-    options: { trustedConnection: true, connectTimeout: 3000 }
-  },
-  {
-    server: 'localhost',
-    database: 'CaseTrack',
-    driver: 'msnodesqlv8',
-    options: { trustedConnection: true, connectTimeout: 3000 }
-  },
-  {
-    server: '127.0.0.1',
-    database: 'CaseTrack',
-    driver: 'msnodesqlv8',
-    options: { trustedConnection: true, connectTimeout: 3000 }
-  },
-  {
-    server: '.',
-    database: 'CaseTrack',
-    driver: 'msnodesqlv8',
-    options: { trustedConnection: true, connectTimeout: 3000 }
-  }
-];
+console.log('--- Environment Check ---');
+console.log('DB_HOST:', process.env.DB_HOST);
+console.log('DB_PORT:', process.env.DB_PORT);
+console.log('DB_USER:', process.env.DB_USER);
+console.log('DB_PASSWORD type:', typeof process.env.DB_PASSWORD);
+console.log('DB_PASSWORD length:', process.env.DB_PASSWORD ? process.env.DB_PASSWORD.length : 0);
+console.log('DB_NAME:', process.env.DB_NAME);
 
-async function test() {
-  for (let i = 0; i < configs.length; i++) {
-    console.log(`\nTesting config ${i + 1} (${configs[i].server})...`);
-    try {
-      // For msnodesqlv8, if default driver fails, we can try to force connectionString
-      let pool;
-      try {
-        pool = await sql.connect(configs[i]);
-      } catch (e) {
-        if (e.message.includes('Data source name not found')) {
-          const str = `Driver={ODBC Driver 17 for SQL Server};Server=${configs[i].server};Database=${configs[i].database};Trusted_Connection=yes;`;
-          pool = await sql.connect({ connectionString: str });
-        } else throw e;
-      }
-      console.log(`SUCCESS with config ${i + 1}`);
-      await pool.close();
-      return;
-    } catch (err) {
-      console.log(`Failed config ${i + 1}:`, err.message);
-    }
+const pool = new Pool({
+  host: process.env.DB_HOST || 'localhost',
+  port: parseInt(process.env.DB_PORT || '5432', 10),
+  user: process.env.DB_USER || 'postgres',
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME || 'CaseTrack'
+});
+
+async function runTest() {
+  try {
+    console.log('\nConnecting to database...');
+    const res = await pool.query('SELECT NOW()');
+    console.log('✅ Connection Success! Server time:', res.rows[0].now);
+  } catch (err) {
+    console.error('❌ Connection Failed:', err.message);
+  } finally {
+    await pool.end();
   }
 }
 
-test();
+runTest();
