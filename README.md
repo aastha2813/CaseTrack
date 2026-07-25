@@ -2,6 +2,9 @@
 
 This document provides step-by-step instructions to set up, install, and run the CaseTrack Full-Stack Application on your local machine.
 
+## Frontend: https://case-track-five.vercel.app
+## Backend: https://casetrack-bluv.onrender.com
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
