@@ -26,11 +26,143 @@ if (typeof io !== 'undefined') {
   console.warn('Socket.io is not loaded. Real-time updates are disabled.');
 }
 
+/* ─── Login Logic ─── */
+let currentLoginType = null;
+
+function checkLogin() {
+  const isLoggedIn = sessionStorage.getItem('isLoggedIn');
+  const navbar = document.getElementById('main-navbar');
+  
+  if (isLoggedIn === 'true') {
+    if (navbar) navbar.style.display = 'flex';
+    return true;
+  } else {
+    if (navbar) navbar.style.display = 'none';
+    return false;
+  }
+}
+
+function renderLoginSelection() {
+  const mainContent = document.getElementById('main-content');
+  if (!mainContent) return;
+
+  mainContent.innerHTML = `
+    <div class="login-container" style="animation:fadeSlideIn .4s ease">
+      <div class="login-card">
+        <div class="login-logo"><i class="fas fa-balance-scale"></i></div>
+        <div class="login-title">CaseTrack</div>
+        <div class="login-subtitle">Judicial Case Management</div>
+        
+        <div class="login-selection-title">Login as:</div>
+        
+        <div class="login-type-buttons">
+          <button class="btn-login-type" onclick="selectLoginType('admin')">ADMIN</button>
+          <button class="btn-login-type" onclick="selectLoginType('user')">USER</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function selectLoginType(type) {
+  currentLoginType = type;
+  renderLoginForm(type);
+}
+
+function renderLoginForm(type) {
+  const mainContent = document.getElementById('main-content');
+  if (!mainContent) return;
+
+  const displayTitle = type === 'admin' ? 'Admin Login' : 'User Login';
+
+  mainContent.innerHTML = `
+    <div class="login-container" style="animation:fadeSlideIn .4s ease">
+      <div class="login-card">
+        <div class="login-logo"><i class="fas fa-balance-scale"></i></div>
+        <div class="login-title">CaseTrack</div>
+        <div class="login-subtitle">Judicial Case Management</div>
+        
+        <div class="login-form-title">${displayTitle}</div>
+        
+        <div class="login-error" id="login-error-msg">Invalid username or password.</div>
+        
+        <div class="form-group" style="text-align: left;">
+          <label class="form-label">Username</label>
+          <input class="form-input" type="text" id="login-username" placeholder="Enter username" onkeydown="handleLoginKey(event)" />
+        </div>
+        
+        <div class="form-group" style="text-align: left;">
+          <label class="form-label">Password</label>
+          <input class="form-input" type="password" id="login-password" placeholder="Enter password" onkeydown="handleLoginKey(event)" />
+        </div>
+        
+        <button class="btn btn-primary" style="width: 100%; margin-top: 12px; padding: 16px;" onclick="validateCredentials()">LOGIN</button>
+        
+        <div>
+          <button class="login-change-type-btn" onclick="renderLoginSelection()">Change Login Type</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById('login-username').focus();
+}
+
+function handleLoginKey(event) {
+  if (event.key === 'Enter') {
+    validateCredentials();
+  }
+}
+
+function validateCredentials() {
+  const usernameInput = document.getElementById('login-username')?.value.trim();
+  const passwordInput = document.getElementById('login-password')?.value;
+  const errorMsg = document.getElementById('login-error-msg');
+
+  let isValid = false;
+
+  if (currentLoginType === 'admin') {
+    if (usernameInput === 'admin' && passwordInput === 'admin123') {
+      isValid = true;
+    }
+  } else if (currentLoginType === 'user') {
+    if (usernameInput === 'user' && passwordInput === 'user123') {
+      isValid = true;
+    }
+  }
+
+  if (isValid) {
+    sessionStorage.setItem('isLoggedIn', 'true');
+    sessionStorage.setItem('userRole', currentLoginType);
+    
+    const navbar = document.getElementById('main-navbar');
+    if (navbar) navbar.style.display = 'flex';
+    
+    showToast(`Welcome back, ${currentLoginType.toUpperCase()}!`, 'success');
+    navigate('dashboard');
+  } else {
+    if (errorMsg) {
+      errorMsg.style.display = 'block';
+    }
+  }
+}
+
+function logout() {
+  sessionStorage.removeItem('isLoggedIn');
+  sessionStorage.removeItem('userRole');
+  checkLogin();
+  renderLoginSelection();
+  showToast('Logged out successfully', 'success');
+}
+
 /* ─── Init ─── */
 window.addEventListener('DOMContentLoaded', () => {
   initTheme();
   startClock();
-  navigate('dashboard');
+  if (checkLogin()) {
+    navigate('dashboard');
+  } else {
+    renderLoginSelection();
+  }
 });
 
 /* ─── Theme ─── */
@@ -73,6 +205,10 @@ function startClock() {
 
 /* ─── Navigation ─── */
 function navigate(view, param) {
+  if (!checkLogin()) {
+    renderLoginSelection();
+    return;
+  }
   currentView = view;
   currentParam = param;
   document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
