@@ -2,7 +2,7 @@
    CaseTrack – app.js  (Frontend SPA Logic)
    ───────────────────────────────────────────────────────────── */
 
-const API = 'https://casetrack-bluv.onrender.com/api';
+const API = '/api';
 
 /* ─── State ─── */
 let allCases = [];
@@ -59,6 +59,11 @@ function renderLoginSelection() {
           <button class="btn-login-type" onclick="selectLoginType('admin')">ADMIN</button>
           <button class="btn-login-type" onclick="selectLoginType('user')">USER</button>
         </div>
+        
+        <div style="margin-top: 28px; font-size: 14px;">
+          <span style="color: var(--text-secondary);">New user? </span>
+          <button class="login-change-type-btn" style="margin-top: 0; text-decoration: underline;" onclick="renderSignupForm()">Sign Up</button>
+        </div>
       </div>
     </div>
   `;
@@ -74,6 +79,12 @@ function renderLoginForm(type) {
   if (!mainContent) return;
 
   const displayTitle = type === 'admin' ? 'Admin Login' : 'User Login';
+  const signupOption = type === 'user' ? `
+    <div style="margin-top: 18px; font-size: 14px;">
+      <span style="color: var(--text-secondary);">Don't have an account? </span>
+      <button class="login-change-type-btn" style="margin-top: 0; text-decoration: underline;" onclick="renderSignupForm()">Sign Up</button>
+    </div>
+  ` : '';
 
   mainContent.innerHTML = `
     <div class="login-container" style="animation:fadeSlideIn .4s ease">
@@ -101,10 +112,68 @@ function renderLoginForm(type) {
         <div>
           <button class="login-change-type-btn" onclick="renderLoginSelection()">Change Login Type</button>
         </div>
+        
+        ${signupOption}
       </div>
     </div>
   `;
   document.getElementById('login-username').focus();
+}
+
+function renderSignupForm() {
+  const mainContent = document.getElementById('main-content');
+  if (!mainContent) return;
+
+  mainContent.innerHTML = `
+    <div class="login-container" style="animation:fadeSlideIn .4s ease">
+      <div class="login-card" style="max-width: 480px; padding: 40px 36px;">
+        <div class="login-logo"><i class="fas fa-balance-scale"></i></div>
+        <div class="login-title">CaseTrack</div>
+        <div class="login-subtitle">Judicial Case Management</div>
+        
+        <div class="login-form-title" style="margin-bottom: 20px;">Create User Account</div>
+        
+        <div class="login-error" id="signup-error-msg"></div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 16px;">
+          <label class="form-label">Full Name</label>
+          <input class="form-input" type="text" id="signup-fullname" placeholder="Enter full name" />
+        </div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 16px;">
+          <label class="form-label">Username</label>
+          <input class="form-input" type="text" id="signup-username" placeholder="Enter username" />
+        </div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 16px;">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" id="signup-email" placeholder="Enter email" />
+        </div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 16px;">
+          <label class="form-label">Phone</label>
+          <input class="form-input" type="text" id="signup-phone" placeholder="Enter phone number" />
+        </div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 16px;">
+          <label class="form-label">Password</label>
+          <input class="form-input" type="password" id="signup-password" placeholder="Enter password" />
+        </div>
+        
+        <div class="form-group" style="text-align: left; margin-bottom: 20px;">
+          <label class="form-label">Confirm Password</label>
+          <input class="form-input" type="password" id="signup-confirm-password" placeholder="Confirm your password" />
+        </div>
+        
+        <button class="btn btn-primary" style="width: 100%; padding: 16px;" onclick="validateAndSubmitSignup()">Sign Up</button>
+        
+        <div>
+          <button class="login-change-type-btn" style="margin-top: 20px;" onclick="renderLoginSelection()">Back to Login</button>
+        </div>
+      </div>
+    </div>
+  `;
+  document.getElementById('signup-fullname').focus();
 }
 
 function handleLoginKey(event) {
@@ -113,42 +182,118 @@ function handleLoginKey(event) {
   }
 }
 
-function validateCredentials() {
+async function validateCredentials() {
   const usernameInput = document.getElementById('login-username')?.value.trim();
   const passwordInput = document.getElementById('login-password')?.value;
   const errorMsg = document.getElementById('login-error-msg');
 
-  let isValid = false;
+  if (errorMsg) errorMsg.style.display = 'none';
 
-  if (currentLoginType === 'admin') {
-    if (usernameInput === 'admin' && passwordInput === 'admin123') {
-      isValid = true;
+  if (!usernameInput || !passwordInput) {
+    if (errorMsg) {
+      errorMsg.textContent = 'Username and password are required.';
+      errorMsg.style.display = 'block';
     }
-  } else if (currentLoginType === 'user') {
-    if (usernameInput === 'user' && passwordInput === 'user123') {
-      isValid = true;
-    }
+    return;
   }
 
-  if (isValid) {
-    sessionStorage.setItem('isLoggedIn', 'true');
-    sessionStorage.setItem('userRole', currentLoginType);
-    
-    const navbar = document.getElementById('main-navbar');
-    if (navbar) navbar.style.display = 'flex';
-    
-    showToast(`Welcome back, ${currentLoginType.toUpperCase()}!`, 'success');
-    navigate('dashboard');
-  } else {
+  try {
+    const response = await fetch(`${API}/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: usernameInput,
+        password: passwordInput,
+        role: currentLoginType
+      })
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      sessionStorage.setItem('isLoggedIn', 'true');
+      sessionStorage.setItem('userId', data.user_id);
+      sessionStorage.setItem('fullName', data.full_name);
+      sessionStorage.setItem('username', data.username);
+      sessionStorage.setItem('userRole', data.role);
+      
+      const navbar = document.getElementById('main-navbar');
+      if (navbar) navbar.style.display = 'flex';
+      
+      showToast(`Welcome back, ${data.full_name}!`, 'success');
+      navigate('dashboard');
+    } else {
+      if (errorMsg) {
+        errorMsg.textContent = data.error || 'Invalid username or password.';
+        errorMsg.style.display = 'block';
+      }
+    }
+  } catch (err) {
     if (errorMsg) {
+      errorMsg.textContent = 'Server error. Please try again.';
       errorMsg.style.display = 'block';
     }
   }
 }
 
+async function validateAndSubmitSignup() {
+  const fullname = document.getElementById('signup-fullname')?.value.trim();
+  const username = document.getElementById('signup-username')?.value.trim();
+  const email = document.getElementById('signup-email')?.value.trim();
+  const phone = document.getElementById('signup-phone')?.value.trim();
+  const password = document.getElementById('signup-password')?.value;
+  const confirmPassword = document.getElementById('signup-confirm-password')?.value;
+  const errorMsg = document.getElementById('signup-error-msg');
+
+  if (errorMsg) errorMsg.style.display = 'none';
+
+  // Frontend validations
+  if (!fullname || !username || !email || !phone || !password || !confirmPassword) {
+    showSignupError('All fields are required.');
+    return;
+  }
+
+  if (password !== confirmPassword) {
+    showSignupError('Password and Confirm Password do not match.');
+    return;
+  }
+
+  try {
+    const response = await fetch(`${API}/signup`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        full_name: fullname,
+        username,
+        email,
+        phone,
+        password,
+        confirmPassword
+      })
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      showToast('Account created successfully. Please login.', 'success');
+      // Go to User Login screen automatically
+      selectLoginType('user');
+    } else {
+      showSignupError(data.error || 'Signup failed.');
+    }
+  } catch (err) {
+    showSignupError('Server error. Please try again.');
+  }
+}
+
+function showSignupError(msg) {
+  const errorMsg = document.getElementById('signup-error-msg');
+  if (errorMsg) {
+    errorMsg.textContent = msg;
+    errorMsg.style.display = 'block';
+  }
+}
+
 function logout() {
-  sessionStorage.removeItem('isLoggedIn');
-  sessionStorage.removeItem('userRole');
+  sessionStorage.clear();
   checkLogin();
   renderLoginSelection();
   showToast('Logged out successfully', 'success');
@@ -275,9 +420,13 @@ function setMain(html) {
 async function renderDashboard() {
   setMain(`<div class="spinner-wrap"><div class="spinner"></div><div class="spinner-text">Loading dashboard…</div></div>`);
   try {
+    const headers = {
+      'x-user-id': sessionStorage.getItem('userId') || '',
+      'x-user-role': sessionStorage.getItem('userRole') || ''
+    };
     const [stats, cases] = await Promise.all([
-      fetch(`${API}/dashboard`).then(r => r.json()),
-      fetch(`${API}/cases`).then(r => r.json())
+      fetch(`${API}/dashboard`, { headers }).then(r => r.json()),
+      fetch(`${API}/cases`, { headers }).then(r => r.json())
     ]);
 
     const recentCases = [...cases].sort((a, b) => {
@@ -415,7 +564,11 @@ function parseDateStr(s) {
 async function renderCaseList() {
   setMain(`<div class="spinner-wrap"><div class="spinner"></div><div class="spinner-text">Loading cases…</div></div>`);
   try {
-    allCases = await fetch(`${API}/cases`).then(r => r.json());
+    const headers = {
+      'x-user-id': sessionStorage.getItem('userId') || '',
+      'x-user-role': sessionStorage.getItem('userRole') || ''
+    };
+    allCases = await fetch(`${API}/cases`, { headers }).then(r => r.json());
     filteredCases = [...allCases];
     currentPage = 1;
     setMain(`
@@ -550,7 +703,11 @@ function gotoPage(p) {
 async function renderCaseDetail(caseId) {
   setMain(`<div class="spinner-wrap"><div class="spinner"></div><div class="spinner-text">Loading case details…</div></div>`);
   try {
-    const d = await fetch(`${API}/cases/${caseId}/details`).then(r => r.json());
+    const headers = {
+      'x-user-id': sessionStorage.getItem('userId') || '',
+      'x-user-role': sessionStorage.getItem('userRole') || ''
+    };
+    const d = await fetch(`${API}/cases/${caseId}/details`, { headers }).then(r => r.json());
     if (d.error) { setMain(`<div class="empty-state"><div class="empty-state-icon"><i class="fas fa-times-circle"></i></div><p>${d.error}</p></div>`); return; }
 
     const c = d.case;
@@ -1066,7 +1223,11 @@ async function submitNewCase() {
   try {
     const r = await fetch(`${API}/cases`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'x-user-id': sessionStorage.getItem('userId') || '',
+        'x-user-role': sessionStorage.getItem('userRole') || ''
+      },
       body: JSON.stringify({ Title: title, Description: desc, Start_Date: date, Status: status, Crime_Type: crime })
     });
     const data = await r.json();

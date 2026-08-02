@@ -4,7 +4,7 @@ const path = require('path');
 const db = require('./db');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -59,7 +59,13 @@ const casingMap = {
   
   judge_id: 'Judge_Id',
   judge_name: 'Judge_Name',
-  court_name: 'Court_Name'
+  court_name: 'Court_Name',
+
+  user_id: 'User_Id',
+  full_name: 'Full_Name',
+  username: 'Username',
+  email: 'Email',
+  phone: 'Phone'
 };
 
 function normalizeRow(row) {
@@ -79,9 +85,7 @@ function normalizeRows(rows) {
 
 function formatDate(dateObj) {
   if (!dateObj) return '';
-  // If already string (like in some raw formats or mock fields)
   if (typeof dateObj === 'string') {
-    // If it looks like ISO string, extract date parts
     if (dateObj.includes('T')) {
       dateObj = new Date(dateObj);
     } else {
@@ -95,9 +99,110 @@ function formatDate(dateObj) {
   return `${d}-${m}-${y}`;
 }
 
-app.get('/api/cases', async (req, res) => {
+// ─── Authentication API Endpoints ───
+
+app.post('/api/login', async (req, res) => {
   try {
-    const result = await db.query('SELECT * FROM CaseFile ORDER BY Start_Date DESC');
+    const { username, password, role } = req.body;
+    if (!username || !password || !role) {
+      return res.status(400).json({ error: 'Username, password, and role are required.' });
+    }
+
+    const queryText = `
+      SELECT user_id, full_name, username, email, phone, role
+      FROM users
+      WHERE username = $1
+      AND password = $2
+      AND role = $3;
+    `;
+    const result = await db.query(queryText, [username, password, role]);
+
+    if (result.rows.length === 0) {
+      return res.status(401).json({ error: 'Invalid username or password.' });
+    }
+
+    const user = normalizeRow(result.rows[0]);
+    res.json({
+      user_id: user.User_Id || user.user_id,
+      full_name: user.Full_Name || user.full_name,
+      username: user.Username || user.username,
+      role: user.Role || user.role
+    });
+  } catch (err) {
+    console.error('Error logging in:', err.message);
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+app.post('/api/signup', async (req, res) => {
+  try {
+    const { full_name, username, email, phone, password, confirmPassword } = req.body;
+    if (!full_name || !username || !email || !phone || !password || !confirmPassword) {
+      return res.status(400).json({ error: 'All fields are required.' });
+    }
+
+    if (password !== confirmPassword) {
+      return res.status(400).json({ error: 'Password and Confirm Password do not match.' });
+    }
+
+    // Check if username already exists in existing users table
+    const userCheck = await db.query('SELECT user_id FROM users WHERE username = $1', [username]);
+    if (userCheck.rows.length > 0) {
+      return res.status(400).json({ error: 'Username already exists.' });
+    }
+
+    // Check if email already exists in existing users table
+    const emailCheck = await db.query('SELECT user_id FROM users WHERE email = $1', [email]);
+    if (emailCheck.rows.length > 0) {
+      return res.status(400).json({ error: 'Email already exists.' });
+    }
+
+    // Generate automatic UXXX format user_id on backend
+    const idResult = await db.query("SELECT user_id FROM users WHERE user_id LIKE 'U%'");
+    const lastNum = idResult.rows.reduce((max, u) => {
+      const uId = u.user_id || '';
+      const num = parseInt(uId.replace('U', ''), 10);
+      return isNaN(num) ? max : Math.max(max, num);
+    }, 0);
+    const newId = 'U' + String(lastNum + 1).padStart(3, '0');
+
+    // Insert directly into EXISTING users table
+    await db.query(`
+      INSERT INTO users (user_id, full_name, username, email, phone, password, role)
+      VALUES ($1, $2, $3, $4, $5, $6, 'user')
+    `, [newId, full_name, username, email, phone, password]);
+
+    res.status(201).json({ message: 'Account created successfully. Please login.' });
+  } catch (err) {
+    console.error('Error signing up:', err.message);
+    res.status(500).json({ error: 'Failed to sign up.' });
+  }
+});
+
+// ─── Case File API Endpoints ───
+
+app.get('/api/cases', async (req, res) => {
+  const userId = req.headers['x-user-id'];
+  const userRole = req.headers['x-user-role'];
+
+  try {
+    let result;
+    if (userRole === 'admin') {
+      // Admin sees ALL cases
+      result = await db.query('SELECT * FROM CaseFile ORDER BY Start_Date DESC');
+    } else if (userId) {
+      // Normal user sees ONLY cases associated with their user_id in user_case
+      result = await db.query(`
+        SELECT c.*
+        FROM CaseFile c
+        JOIN user_case uc ON c.case_id = uc.case_id
+        WHERE uc.user_id = $1
+        ORDER BY c.start_date DESC
+      `, [userId]);
+    } else {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+
     const cases = normalizeRows(result.rows).map(c => ({
       ...c,
       Start_Date: formatDate(c.Start_Date)
@@ -185,8 +290,24 @@ app.get('/api/cases/:id/details', async (req, res) => {
 });
 
 app.get('/api/dashboard', async (req, res) => {
+  const userId = req.headers['x-user-id'];
+  const userRole = req.headers['x-user-role'];
+
   try {
-    const result = await db.query('SELECT Status, Crime_Type FROM CaseFile');
+    let result;
+    if (userRole === 'admin') {
+      result = await db.query('SELECT Status, Crime_Type FROM CaseFile');
+    } else if (userId) {
+      result = await db.query(`
+        SELECT c.status, c.crime_type
+        FROM CaseFile c
+        JOIN user_case uc ON c.case_id = uc.case_id
+        WHERE uc.user_id = $1
+      `, [userId]);
+    } else {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+
     const cases = normalizeRows(result.rows);
     
     const total = cases.length;
@@ -207,6 +328,8 @@ app.get('/api/dashboard', async (req, res) => {
 });
 
 app.post('/api/cases', async (req, res) => {
+  const userId = req.headers['x-user-id'];
+
   try {
     const { Title, Description, Start_Date, Status, Crime_Type } = req.body;
     if (!Title || !Description || !Start_Date || !Status || !Crime_Type) {
@@ -216,21 +339,43 @@ app.post('/api/cases', async (req, res) => {
     const [d, m, y] = Start_Date.split('-');
     const sqlDate = `${y}-${m}-${d}`;
 
-    const idResult = await db.query('SELECT Case_Id FROM CaseFile');
-    const lastNum = idResult.rows.reduce((max, c) => {
-      const normalized = normalizeRow(c);
-      const num = parseInt(normalized.Case_Id.replace('C', ''), 10);
-      return isNaN(num) ? max : Math.max(max, num);
-    }, 0);
-    const newId = 'C' + String(lastNum + 1).padStart(3, '0');
+    // Execute in a single PostgreSQL transaction
+    const client = await db.pool.connect();
+    try {
+      await client.query('BEGIN');
 
-    await db.query(`
-      INSERT INTO CaseFile (Case_Id, Title, Description, Start_Date, Status, Crime_Type)
-      VALUES ($1, $2, $3, $4, $5, $6)
-    `, [newId, Title, Description, sqlDate, Status, Crime_Type]);
+      const idResult = await client.query('SELECT case_id FROM casefile');
+      const lastNum = idResult.rows.reduce((max, c) => {
+        const cId = c.case_id || '';
+        const num = parseInt(cId.replace('C', ''), 10);
+        return isNaN(num) ? max : Math.max(max, num);
+      }, 0);
+      const newId = 'C' + String(lastNum + 1).padStart(3, '0');
 
-    const newCase = { Case_Id: newId, Title, Description, Start_Date, Status, Crime_Type };
-    res.status(201).json({ message: 'Case added successfully', case: newCase });
+      // 1. Insert into EXISTING casefile table
+      await client.query(`
+        INSERT INTO casefile (case_id, title, description, start_date, status, crime_type)
+        VALUES ($1, $2, $3, $4, $5, $6)
+      `, [newId, Title, Description, sqlDate, Status, Crime_Type]);
+
+      // 2. If registered by a normal user (not admin), insert connection into EXISTING user_case table
+      if (userId && userId.startsWith('U')) {
+        await client.query(`
+          INSERT INTO user_case (user_id, case_id)
+          VALUES ($1, $2)
+        `, [userId, newId]);
+      }
+
+      await client.query('COMMIT');
+
+      const newCase = { Case_Id: newId, Title, Description, Start_Date, Status, Crime_Type };
+      res.status(201).json({ message: 'Case added successfully', case: newCase });
+    } catch (txErr) {
+      await client.query('ROLLBACK');
+      throw txErr;
+    } finally {
+      client.release();
+    }
   } catch (err) {
     console.error('Error adding case:', err.message);
     res.status(500).json({ error: 'Failed to add case' });
